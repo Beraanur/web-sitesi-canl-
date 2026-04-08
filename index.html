@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO: Title -->
+  <title>Beraanur Şahin | Sosyal Medya Yöneticisi &amp; Grafik Tasarımcı – The Black Dot</title>
+
+  <!-- SEO: Meta description -->
+  <meta name="description" content="Ankara merkezli freelance sosyal medya yöneticisi &amp; grafik tasarımcı. Marka kimliği, logo, sosyal medya içerik tasarımı ve yönetimi. Portfolyomu keşfet.">
+
+  <!-- SEO: Canonical -->
+  <link rel="canonical" href="https://theblackdott.github.io/portfolio">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Beraanur Şahin | Sosyal Medya Yöneticisi &amp; Grafik Tasarımcı – The Black Dot">
+  <meta property="og:description" content="Ankara merkezli freelance sosyal medya yöneticisi &amp; grafik tasarımcı. Marka kimliği, logo, sosyal medya içerik tasarımı ve yönetimi.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://theblackdott.github.io/portfolio">
+  <meta property="og:image" content="https://theblackdott.github.io/portfolio/logo.png">
+
+  <!-- SEO: JSON-LD Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Beraanur Şahin",
+    "jobTitle": "Sosyal Medya Yöneticisi & Grafik Tasarımcı",
+    "brand": { "@type": "Brand", "name": "The Black Dot" },
+    "url": "https://theblackdott.github.io/portfolio",
+    "email": "beranursahin@gmail.com",
+    "areaServed": ["Ankara", "Türkiye", "Remote / Worldwide"],
+    "knowsAbout": [
+      "Marka Kimliği", "Logo Tasarımı", "Sosyal Medya Yönetimi",
+      "Grafik Tasarım", "Sosyal Medya Tasarımı", "İçerik Üretimi",
+      "Adobe", "Midjourney", "Adobe Firefly", "AI Destekli Tasarım"
+    ]
+  }
+  </script>
+
+  <link rel="icon" type="image/png" href="logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- SEO: Görünmez H1 -->
+<h1 class="sr-only">Beraanur Şahin — Sosyal Medya Yöneticisi &amp; Grafik Tasarımcı | The Black Dot</h1>
+
+<!-- TOP BAR -->
+<nav class="top-bar" id="topBar">
+  <div class="top-bar-left">
+    <button class="menu-btn" id="menuBtn" aria-label="Menü">
+      <span class="menu-line"></span>
+      <span class="menu-line"></span>
+      <span class="menu-line"></span>
+    </button>
+    <div class="top-bar-logo" id="topBarLogo"><span style="color: #fff;">THE </span>BLACK<span style="color: #fff;"> DOT</span></div>
+  </div>
+  <div class="top-bar-right">
+    <div class="project-counter" id="projectCounter"><span>01</span> / 05</div>
+    <button class="lang-toggle" id="langToggle" aria-label="Change language">EN</button>
+  </div>
+</nav>
+
+<!-- NAV DRAWER -->
+<div class="nav-drawer" id="navDrawer">
+  <div class="nav-drawer-inner">
+    <div class="nav-brand">THE <span>BLACK</span> DOT</div>
+    <nav class="nav-links">
+      <a class="nav-link" onclick="navTo('hero')" data-tr="Ana Sayfa" data-en="Home">Ana Sayfa</a>
+      <a class="nav-link" onclick="navTo('about')" data-tr="Hakkımda" data-en="About">Hakkımda</a>
+      <div class="nav-group">
+        <button class="nav-link nav-group-toggle" id="projectsToggle" data-tr="Projeler" data-en="Projects">Projeler</button>
+        <div class="nav-sublinks" id="navSublinks">
+          <a class="nav-sublink" onclick="navToProject(0)">Vortify Media</a>
+          <a class="nav-sublink" onclick="navToProject(1)">Şoför Go</a>
+          <a class="nav-sublink" onclick="navToProject(2)">The Little Black Book</a>
+          <a class="nav-sublink" onclick="navToProject(3)">Parfüm Mutfağı</a>
+          <a class="nav-sublink" onclick="navToProject(4)">Şarkı Kapakları</a>
+        </div>
+      </div>
+      <a class="nav-link" onclick="navTo('contact')" data-tr="İletişim" data-en="Contact">İletişim</a>
+    </nav>
+    <div class="nav-footer">
+      <a href="mailto:beranursahin@gmail.com" class="nav-email">beranursahin@gmail.com</a>
+    </div>
+  </div>
+</div>
+<div class="nav-overlay" id="navOverlay" onclick="closeNav()"></div>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-brand-topleft">
+    <span>THE </span><span class="hero-brand-black">BLACK</span><span> DOT</span>
+  </div>
+  <div class="hero-content">
+    <img src="logo.png" alt="The Black Dot logo — Beraanur Şahin grafik tasarım" class="hero-logo" onerror="this.style.display='none'">
+    <p class="hero-name">Beraanur Şahin</p>
+    <p class="hero-subtitle" data-tr="Marka kimliği ve grafik tasarım" data-en="Brand identity &amp; graphic design">Marka kimliği ve grafik tasarım</p>
+    <p class="hero-quote" data-tr="Örnek tasarımlarımı görmek için aşağı kaydırın" data-en="Scroll down to see my work">Örnek tasarımlarımı görmek için aşağı kaydırın</p>
+  </div>
+  <div class="hero-scroll-hint">
+    <span data-tr="Keşfet" data-en="Explore">Keşfet</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- SCROLL SPACER -->
+<div class="horizontal-spacer" id="horizontalSpacer"></div>
+
+<!-- FIXED HORIZONTAL CONTAINER -->
+<div class="horizontal-container" id="horizontalContainer">
+  <div class="horizontal-track" id="horizontalTrack">
+
+    <!-- 01: Vortify Media -->
+    <div class="project-card">
+      <div class="project-card-inner">
+        <div class="project-image-wrapper" onclick="openDetail(0)">
+          <img src="vortify/ana.jpg" alt="Vortify Media sosyal medya ve carousel tasarımı — Beraanur Şahin" loading="eager">
+          <div class="project-image-overlay"></div>
+        </div>
+        <div class="project-info">
+          <span class="project-tag" data-tr="Müşteri Projesi — Reklam Ajansı" data-en="Client Project — Advertising Agency">Müşteri Projesi — Reklam Ajansı</span>
+          <h2 class="project-name">VORTIFY MEDIA</h2>
+          <p class="project-desc" data-tr="Dijital büyüme için yaratıcı içerik çözümleri. İçerik yazımı, post tasarımı, içerik takvimi ve hesap yönetimi." data-en="Creative content solutions for digital growth. Content writing, post design, content calendar, and account management.">Dijital büyüme için yaratıcı içerik çözümleri. İçerik yazımı, post tasarımı, içerik takvimi ve hesap yönetimi.</p>
+          <ul class="project-work-list">
+            <li data-tr="Sosyal Medya" data-en="Social Media">Sosyal Medya</li>
+            <li data-tr="Carousel Tasarımı" data-en="Carousel Design">Carousel Tasarımı</li>
+            <li data-tr="Baskı/Yayın" data-en="Print/Publication">Baskı/Yayın</li>
+            <li data-tr="İçerik Üretimi" data-en="Content Creation">İçerik Üretimi</li>
+          </ul>
+          <div class="project-palette">
+            <div class="palette-dot" style="background:#41210A"><span class="tooltip">#41210A</span></div>
+            <div class="palette-dot" style="background:#6A607D"><span class="tooltip">#6A607D</span></div>
+            <div class="palette-dot" style="background:#4E73AD"><span class="tooltip">#4E73AD</span></div>
+            <div class="palette-dot" style="background:#BFD8F2"><span class="tooltip">#BFD8F2</span></div>
+            <div class="palette-dot" style="background:#F3F5F2"><span class="tooltip">#F3F5F2</span></div>
+          </div>
+          <button class="explore-btn" onclick="openDetail(0)" data-tr="Projeyi keşfet" data-en="Explore project">
+            <span>Projeyi keşfet</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 02: Şoför Go -->
+    <div class="project-card">
+      <div class="project-card-inner">
+        <div class="project-image-wrapper" onclick="openDetail(1)">
+          <img src="sofor-go/ana.jpg" alt="Şoför Go marka kimliği ve logo tasarımı — Beraanur Şahin" loading="eager">
+          <div class="project-image-overlay"></div>
+        </div>
+        <div class="project-info">
+          <span class="project-tag" data-tr="Müşteri Projesi — Profesyonel Şoför Hizmeti" data-en="Client Project — Professional Driver Service">Müşteri Projesi — Profesyonel Şoför Hizmeti</span>
+          <h2 class="project-name">ŞOFÖR GO</h2>
+          <p class="project-desc" data-tr="Aracın sende, Sürüş bizde. Full marka kimliği: logo, renk, tipografi, sosyal medya şablonları, app UI ve kurumsal kimlik." data-en="Your car, our drive. Full brand identity: logo, color, typography, social media templates, app UI, and corporate identity.">Aracın sende, Sürüş bizde. Full marka kimliği: logo, renk, tipografi, sosyal medya şablonları, app UI ve kurumsal kimlik.</p>
+          <ul class="project-work-list">
+            <li data-tr="Logo Tasarımı" data-en="Logo Design">Logo Tasarımı</li>
+            <li data-tr="Marka Kimliği" data-en="Brand Identity">Marka Kimliği</li>
+            <li data-tr="Sosyal Medya" data-en="Social Media">Sosyal Medya</li>
+            <li>App UI</li>
+          </ul>
+          <div class="project-palette">
+            <div class="palette-dot" style="background:#F5F6FB"><span class="tooltip">#F5F6FB</span></div>
+            <div class="palette-dot" style="background:#A7A6AB"><span class="tooltip">#A7A6AB</span></div>
+            <div class="palette-dot" style="background:#A927E7"><span class="tooltip">#A927E7</span></div>
+            <div class="palette-dot" style="background:#180934"><span class="tooltip">#180934</span></div>
+            <div class="palette-dot" style="background:#6620F0"><span class="tooltip">#6620F0</span></div>
+          </div>
+          <button class="explore-btn" onclick="openDetail(1)" data-tr="Projeyi keşfet" data-en="Explore project">
+            <span>Projeyi keşfet</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 03: TLBB -->
+    <div class="project-card">
+      <div class="project-card-inner">
+        <div class="project-image-wrapper" onclick="openDetail(2)">
+          <img src="thelittleblackbook/ana.jpg" alt="The Little Black Book Bodrum sosyal medya ve editorial tasarım — Beraanur Şahin" loading="eager">
+          <div class="project-image-overlay"></div>
+        </div>
+        <div class="project-info">
+          <span class="project-tag" data-tr="Müşteri Projesi — Lifestyle İçerik Markası" data-en="Client Project — Lifestyle Content Brand">Müşteri Projesi — Lifestyle İçerik Markası</span>
+          <h2 class="project-name">THE LITTLE BLACK BOOK</h2>
+          <p class="project-desc" data-tr="Bodrum'daki seçili mekan ve deneyimleri kürate eden lifestyle içerik markası. Minimal ve rafine estetik yaklaşım." data-en="A lifestyle content brand curating select venues and experiences in Bodrum. Minimal and refined aesthetic approach.">Bodrum'daki seçili mekan ve deneyimleri kürate eden lifestyle içerik markası. Minimal ve rafine estetik yaklaşım.</p>
+          <ul class="project-work-list">
+            <li data-tr="İçerik Kurgusu" data-en="Content Strategy">İçerik Kurgusu</li>
+            <li data-tr="Görsel Kimlik" data-en="Visual Identity">Görsel Kimlik</li>
+            <li data-tr="Sosyal Medya" data-en="Social Media">Sosyal Medya</li>
+            <li data-tr="Editorial Tasarım" data-en="Editorial Design">Editorial Tasarım</li>
+          </ul>
+          <div class="project-palette">
+            <div class="palette-dot" style="background:#FFFFFF;border-color:rgba(0,0,0,0.2)"><span class="tooltip">#FFFFFF</span></div>
+            <div class="palette-dot" style="background:#000000"><span class="tooltip">#000000</span></div>
+            <div class="palette-dot" style="background:#E42B91"><span class="tooltip">#E42B91</span></div>
+          </div>
+          <button class="explore-btn" onclick="openDetail(2)" data-tr="Projeyi keşfet" data-en="Explore project">
+            <span>Projeyi keşfet</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 04: Parfüm Mutfağı -->
+    <div class="project-card">
+      <div class="project-card-inner">
+        <div class="project-image-wrapper" onclick="openDetail(3)">
+          <img src="parfum/ana.jpg" alt="Parfüm Mutfağı ürün görseli ve sosyal medya tasarımı — Beraanur Şahin" loading="eager">
+          <div class="project-image-overlay"></div>
+        </div>
+        <div class="project-info">
+          <span class="project-tag" data-tr="Müşteri Projesi — Parfüm Markası" data-en="Client Project — Perfume Brand">Müşteri Projesi — Parfüm Markası</span>
+          <h2 class="project-name">PARFÜM MUTFAĞI</h2>
+          <p class="project-desc" data-tr="Premium ve sade görsel dil ile ürün fotoğraf konseptleri ve sosyal medya içerik tasarımı. AI destekli görsel üretim." data-en="Product photography concepts and social media content design with a premium, clean visual language. AI-assisted visual production.">Premium ve sade görsel dil ile ürün fotoğraf konseptleri ve sosyal medya içerik tasarımı. AI destekli görsel üretim.</p>
+          <ul class="project-work-list">
+            <li data-tr="Ürün Görselleri" data-en="Product Visuals">Ürün Görselleri</li>
+            <li data-tr="Sosyal Medya" data-en="Social Media">Sosyal Medya</li>
+            <li data-tr="AI Konsept" data-en="AI Concept">AI Konsept</li>
+            <li data-tr="İçerik Kurgusu" data-en="Content Strategy">İçerik Kurgusu</li>
+          </ul>
+          <div class="project-palette">
+            <div class="palette-dot" style="background:#719A73"><span class="tooltip">#719A73</span></div>
+            <div class="palette-dot" style="background:#003A35"><span class="tooltip">#003A35</span></div>
+            <div class="palette-dot" style="background:#001F27"><span class="tooltip">#001F27</span></div>
+            <div class="palette-dot" style="background:#1F73C2"><span class="tooltip">#1F73C2</span></div>
+          </div>
+          <button class="explore-btn" onclick="openDetail(3)" data-tr="Projeyi keşfet" data-en="Explore project">
+            <span>Projeyi keşfet</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 05: Şarkı Kapakları -->
+    <div class="project-card">
+      <div class="project-card-inner">
+        <div class="project-image-wrapper" onclick="openDetail(4)">
+          <img src="sarki/sarki-kapagi-mockup/1.png" alt="Şarkı kapakları — orijinal fotoğraf ve tipografi tasarımı — Beraanur Şahin" loading="eager">
+          <div class="project-image-overlay"></div>
+        </div>
+        <div class="project-info">
+          <span class="project-tag" data-tr="Kişisel Proje" data-en="Personal Project">Kişisel Proje</span>
+          <h2 class="project-name">ŞARKI KAPAKLARI</h2>
+          <p class="project-desc" data-tr="Orijinal fotoğraflar kullanılarak tasarlanan albüm kapakları. Her kapak, müziğin ruhunu görsel bir dile çeviriyor." data-en="Album covers designed using original photography. Each cover translates the spirit of the music into a visual language.">Orijinal fotoğraflar kullanılarak tasarlanan albüm kapakları. Her kapak, müziğin ruhunu görsel bir dile çeviriyor.</p>
+          <ul class="project-work-list">
+            <li data-tr="Albüm Kapağı" data-en="Album Cover">Albüm Kapağı</li>
+            <li data-tr="Fotoğraf" data-en="Photography">Fotoğraf</li>
+            <li data-tr="Tipografi" data-en="Typography">Tipografi</li>
+          </ul>
+          <div class="project-palette"></div>
+          <button class="explore-btn" onclick="openDetail(4)" data-tr="Projeyi keşfet" data-en="Explore project">
+            <span>Projeyi keşfet</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- BOTTOM SECTIONS -->
+<div class="bottom-sections" id="bottomSections">
+  <div class="progress-bar" id="progressBar"><div class="progress-fill" id="progressFill"></div></div>
+
+  <section class="about-section reveal" id="about">
+    <span class="section-label" data-tr="Hakkımda" data-en="About Me">Hakkımda</span>
+    <p class="about-text" data-tr="Grafik tasarım ve dijital içerik üretimi odağında, markalar için stratejik ve tutarlı görsel kimlikler tasarlıyorum. Her projede, markanın karakterine uygun bir dil oluşturup bunu tüm temas noktalarında sistemli şekilde uygulamayı hedefliyorum. İçerik, tasarım ve kullanıcı algısını birlikte ele alan bir yaklaşım benimsiyorum." data-en="Focused on graphic design and digital content, I create strategic and consistent visual identities for brands. In every project, I aim to build a language true to the brand's character and apply it systematically across all touchpoints. I take a holistic approach that unites content, design, and user perception.">Grafik tasarım ve dijital içerik üretimi odağında, markalar için stratejik ve tutarlı görsel kimlikler tasarlıyorum. Her projede, markanın karakterine uygun bir dil oluşturup bunu tüm temas noktalarında sistemli şekilde uygulamayı hedefliyorum. İçerik, tasarım ve kullanıcı algısını birlikte ele alan bir yaklaşım benimsiyorum.</p>
+    <div class="services-grid">
+      <div class="service-item">
+        <h4 data-tr="Marka Kimliği" data-en="Brand Identity">Marka Kimliği</h4>
+        <p data-tr="Logo, renk, tipografi ve marka dili tasarımı" data-en="Logo, color, typography, and brand language design">Logo, renk, tipografi ve marka dili tasarımı</p>
+      </div>
+      <div class="service-item">
+        <h4 data-tr="Kurumsal Kimlik" data-en="Corporate Identity">Kurumsal Kimlik</h4>
+        <p data-tr="Kartvizit, antetli kağıt, kurumsal materyaller" data-en="Business cards, letterheads, corporate materials">Kartvizit, antetli kağıt, kurumsal materyaller</p>
+      </div>
+      <div class="service-item">
+        <h4 data-tr="Sosyal Medya Tasarımı" data-en="Social Media Design">Sosyal Medya Tasarımı</h4>
+        <p data-tr="Post, carousel, story ve içerik takvimi" data-en="Posts, carousels, stories, and content calendars">Post, carousel, story ve içerik takvimi</p>
+      </div>
+      <div class="service-item">
+        <h4 data-tr="Yayın ve Baskı" data-en="Print &amp; Publication">Yayın ve Baskı</h4>
+        <p data-tr="Broşür, katalog, afiş ve baskı tasarımları" data-en="Brochures, catalogs, posters, and print designs">Broşür, katalog, afiş ve baskı tasarımları</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-section reveal" id="contact">
+    <h2 class="contact-title" data-tr="BİR FİKRİN Mİ VAR?" data-en="GOT AN IDEA?">BİR FİKRİN Mİ VAR?</h2>
+    <p class="contact-subtitle" data-tr="Yeni bir proje, çılgın bir konsept ya da sadece merhaba demek için — kapım her zaman açık. Kahve benden." data-en="A new project, a wild concept, or just to say hi — my door is always open. Coffee's on me.">Yeni bir proje, çılgın bir konsept ya da sadece merhaba demek için — kapım her zaman açık. Kahve benden.</p>
+    <div class="contact-links">
+      <a href="mailto:beranursahin@gmail.com" class="contact-link">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        <span>beranursahin@gmail.com</span>
+      </a>
+      <a href="https://wa.me/905541431975" class="contact-link contact-link-whatsapp" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+        <span data-tr="WhatsApp'tan yaz" data-en="Message on WhatsApp">WhatsApp'tan yaz</span>
+      </a>
+    </div>
+  </section>
+
+  <footer class="footer"><p>&copy; 2026 The Black Dot. All rights reserved.</p></footer>
+</div>
+
+<!-- DETAIL OVERLAY -->
+<div class="project-detail" id="projectDetail">
+  <button class="detail-close" onclick="closeDetail()" aria-label="Close">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg>
+  </button>
+  <div id="detailContent"></div>
+</div>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" onclick="closeLightbox()" aria-label="Close">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg>
+  </button>
+  <button class="lightbox-nav lightbox-prev" onclick="navigateLightbox(-1)" aria-label="Previous">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+  </button>
+  <img id="lightboxImg" src="" alt="" loading="lazy">
+  <button class="lightbox-nav lightbox-next" onclick="navigateLightbox(1)" aria-label="Next">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+  </button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
