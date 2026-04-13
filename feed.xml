@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Beraanur Şahin — The Black Dot | Grafik Tasarım Portfolyosu</title>
+    <link>https://theblackdott.github.io/portfolio</link>
+    <description>Ankara merkezli freelance sosyal medya yöneticisi ve grafik tasarımcı. Marka kimliği, logo, sosyal medya içerik tasarımı ve yönetimi.</description>
+    <language>tr</language>
+    <copyright>© 2026 The Black Dot. All rights reserved.</copyright>
+    <lastBuildDate>Mon, 13 Apr 2026 00:00:00 +0300</lastBuildDate>
+    <atom:link href="https://theblackdott.github.io/portfolio/feed.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://theblackdott.github.io/portfolio/logo.png</url>
+      <title>The Black Dot</title>
+      <link>https://theblackdott.github.io/portfolio</link>
+    </image>
+
+    <item>
+      <title>Vortify Media — Sosyal Medya ve Carousel Tasarımı</title>
+      <link>https://theblackdott.github.io/portfolio#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-media</guid>
+      <description>Dijital büyüme için yaratıcı içerik çözümleri. Reklam ajansı için sosyal medya içerik üretimi, carousel tasarımları ve baskı/yayın çalışmaları. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0300</pubDate>
+      <enclosure url="https://theblackdott.github.io/portfolio/vortify/ana.jpg" type="image/jpeg" length="0"/>
+      <category>Sosyal Medya</category>
+      <category>Carousel Tasarımı</category>
+      <category>Baskı/Yayın</category>
+      <category>İçerik Üretimi</category>
+    </item>
+
+    <item>
+      <title>Şoför Go — Marka Kimliği ve Logo Tasarımı</title>
+      <link>https://theblackdott.github.io/portfolio#sofor-go</link>
+      <guid isPermaLink="false">theblackdott-sofor-go</guid>
+      <description>Aracın sende, Sürüş bizde. Profesyonel şoför hizmeti için full marka kimliği: logo, renk, tipografi, sosyal medya şablonları, app UI ve kurumsal kimlik. Font: Proxima Nova.</description>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0300</pubDate>
+      <enclosure url="https://theblackdott.github.io/portfolio/sofor-go/ana.jpg" type="image/jpeg" length="0"/>
+      <category>Logo Tasarımı</category>
+      <category>Marka Kimliği</category>
+      <category>Sosyal Medya</category>
+      <category>App UI</category>
+    </item>
+
+    <item>
+      <title>The Little Black Book Bodrum — Lifestyle İçerik Markası</title>
+      <link>https://theblackdott.github.io/portfolio#tlbb</link>
+      <guid isPermaLink="false">theblackdott-tlbb</guid>
+      <description>Bodrum'daki seçili mekan ve deneyimleri kürate eden lifestyle içerik markası. Minimal ve rafine estetik yaklaşım. Font: Inter.</description>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0300</pubDate>
+      <enclosure url="https://theblackdott.github.io/portfolio/thelittleblackbook/ana.jpg" type="image/jpeg" length="0"/>
+      <category>İçerik Kurgusu</category>
+      <category>Görsel Kimlik</category>
+      <category>Sosyal Medya</category>
+      <category>Editorial Tasarım</category>
+    </item>
+
+    <item>
+      <title>Parfüm Mutfağı — Premium Ürün Görselleri ve Sosyal Medya</title>
+      <link>https://theblackdott.github.io/portfolio#parfum</link>
+      <guid isPermaLink="false">theblackdott-parfum-mutfagi</guid>
+      <description>Premium ve sade görsel dil ile ürün fotoğraf konseptleri ve sosyal medya içerik tasarımı. AI destekli görsel üretim. Font: Cormorant Garamond.</description>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0300</pubDate>
+      <enclosure url="https://theblackdott.github.io/portfolio/parfum/ana.jpg" type="image/jpeg" length="0"/>
+      <category>Ürün Görselleri</category>
+      <category>Sosyal Medya</category>
+      <category>AI Konsept</category>
+      <category>İçerik Kurgusu</category>
+    </item>
+
+    <item>
+      <title>Şarkı Kapakları — Albüm Kapağı Tasarımı</title>
+      <link>https://theblackdott.github.io/portfolio#sarki</link>
+      <guid isPermaLink="false">theblackdott-sarki-kapaklari</guid>
+      <description>Orijinal fotoğraflar kullanılarak tasarlanan albüm kapakları. Her kapak, müziğin ruhunu görsel bir dile çeviriyor. Font: Space Grotesk.</description>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0300</pubDate>
+      <enclosure url="https://theblackdott.github.io/portfolio/sarki/sarki-kapagi-mockup/1.png" type="image/png" length="0"/>
+      <category>Albüm Kapağı</category>
+      <category>Fotoğraf</category>
+      <category>Tipografi</category>
+    </item>
+
+  </channel>
+</rss>
