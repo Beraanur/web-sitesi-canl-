@@ -607,4 +607,29 @@ ul,ol{list-style:none}
   .gallery-grid{grid-template-columns:1fr}
   .top-bar-right{gap:12px}
   .lang-toggle{font-size:0.65rem;padding:4px 10px}
+  /* Story ve carousel item min genişlik */
+  .gallery-item.story-item{min-width:140px;width:140px}
+  .gallery-item.carousel-item{min-width:180px;flex:0 0 auto}
+  /* Lightbox nav butonları altta ortala */
+  .lightbox-nav{top:auto;bottom:24px;transform:none}
+  .lightbox-prev{left:calc(50% - 60px)}
+  .lightbox-next{right:calc(50% - 60px)}
+  /* Detail close buton */
+  .detail-close{right:20px;top:16px}
+  /* Bottom sections */
+  .bottom-sections{padding-top:60px}
+  /* Gallery grid padding azalt */
+  .gallery-grid.carousel-grid,.gallery-grid.story-grid{padding:0 12px 30px}
+  /* About section */
+  .about-section{padding:40px 16px 60px}
+}
+@media(max-width:375px){
+  .nav-drawer{width:260px}
+  .top-bar-logo{display:none !important}
+  .gallery-item.story-item{min-width:120px;width:120px}
+}
+@media(max-height:500px) and (orientation:landscape){
+  .hero-section{height:auto;min-height:100vh;padding:80px 0 40px}
+  .hero-logo{width:90px;height:90px}
+  .hero-name{font-size:1.2rem}
 }
