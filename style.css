@@ -211,6 +211,7 @@ ul,ol{list-style:none}
   font-family:var(--font-h);font-size:1.3rem;letter-spacing:4px;
   color:var(--white-pure);
   opacity:0;animation:fadeUp 0.8s ease forwards 0.2s;
+  display:none;
 }
 .hero-brand-black{color:var(--neon)}
 
@@ -606,7 +607,4 @@ ul,ol{list-style:none}
   .gallery-grid{grid-template-columns:1fr}
   .top-bar-right{gap:12px}
   .lang-toggle{font-size:0.65rem;padding:4px 10px}
-}
-.hero-brand-topleft {
-  display: none !important;
 }

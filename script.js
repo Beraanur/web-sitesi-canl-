@@ -73,8 +73,8 @@ var projects = [
     font:'Cormorant Garamond',
     colors:['#719A73','#003A35','#001F27','#1F73C2'],
     categories:{
-      tr:[{name:'Tümü',type:'grid',images:['parfum/1.jpg','parfum/2.jpg','parfum/3.jpg','parfum/4.jpg','parfum/5.jpg','parfum/6.jpg','parfum/7.jpg','parfum/8.jpg','parfum/9.jpg','parfum/10.jpg']}],
-      en:[{name:'All',type:'grid',images:['parfum/1.jpg','parfum/2.jpg','parfum/3.jpg','parfum/4.jpg','parfum/5.jpg','parfum/6.jpg','parfum/7.jpg','parfum/8.jpg','parfum/9.jpg','parfum/10.jpg']}]
+      tr:[{name:'Tümü',type:'grid',images:['parfum/1.jpg','parfum/2.jpg','parfum/3.jpg','parfum/4.jpg','parfum/5.jpg','parfum/6.jpg','parfum/8.jpg','parfum/9.jpg','parfum/10.jpg']}],
+      en:[{name:'All',type:'grid',images:['parfum/1.jpg','parfum/2.jpg','parfum/3.jpg','parfum/4.jpg','parfum/5.jpg','parfum/6.jpg','parfum/8.jpg','parfum/9.jpg','parfum/10.jpg']}]
     }
   },
   {
@@ -415,13 +415,3 @@ function navToProject(idx){
     window.scrollTo({top:scrollTarget,behavior:'smooth'});
   },350);
 }
-
-/* Dil toggle'da drawer içi linkleri de güncelle */
-langToggle.addEventListener('click',function(){
-  var drawerLinks=navDrawer.querySelectorAll('[data-tr]');
-  for(var i=0;i<drawerLinks.length;i++){
-    var el=drawerLinks[i];
-    var txt=el.getAttribute('data-'+currentLang);
-    if(txt) el.textContent=txt;
-  }
-});
