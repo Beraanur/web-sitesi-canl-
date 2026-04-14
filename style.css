@@ -626,6 +626,7 @@ ul,ol{list-style:none}
 @media(max-width:375px){
   .nav-drawer{width:260px}
   .top-bar-logo{display:none !important}
+  .hero-brand-topleft{display:block}
   .gallery-item.story-item{min-width:120px;width:120px}
 }
 @media(max-height:500px) and (orientation:landscape){

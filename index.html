@@ -12,12 +12,15 @@
 
   <!-- SEO: Canonical -->
   <link rel="canonical" href="https://theblackdot.work">
-  <link rel="alternate" type="application/rss+xml" title="The Black Dot — Portfolyo" href="https://theblackdot.work/feed.xml">
   <meta property="og:title" content="Beraanur Şahin | Sosyal Medya Yöneticisi &amp; Grafik Tasarımcı – The Black Dot">
   <meta property="og:description" content="Ankara merkezli freelance sosyal medya yöneticisi &amp; grafik tasarımcı. Marka kimliği, logo, sosyal medya içerik tasarımı ve yönetimi.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://theblackdot.work">
   <meta property="og:image" content="https://theblackdot.work/logo.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Beraanur Şahin | Sosyal Medya Yöneticisi &amp; Grafik Tasarımcı – The Black Dot">
+  <meta name="twitter:description" content="Ankara merkezli freelance sosyal medya yöneticisi &amp; grafik tasarımcı. Marka kimliği, logo, sosyal medya içerik tasarımı ve yönetimi.">
+  <meta name="twitter:image" content="https://theblackdot.work/logo.png">
 
   <!-- SEO: JSON-LD Schema -->
   <script type="application/ld+json">
@@ -67,8 +70,8 @@
   <div class="nav-drawer-inner">
     <div class="nav-brand">THE <span>BLACK</span> DOT</div>
     <nav class="nav-links">
-      <a class="nav-link" onclick="navTo('hero')" data-tr="Ana Sayfa" data-en="Home">Ana Sayfa</a>
-      <a class="nav-link" onclick="navTo('about')" data-tr="Hakkımda" data-en="About">Hakkımda</a>
+      <a class="nav-link" href="#hero" onclick="navTo('hero')" data-tr="Ana Sayfa" data-en="Home">Ana Sayfa</a>
+      <a class="nav-link" href="#about" onclick="navTo('about')" data-tr="Hakkımda" data-en="About">Hakkımda</a>
       <div class="nav-group">
         <button class="nav-link nav-group-toggle" id="projectsToggle" data-tr="Projeler" data-en="Projects">Projeler</button>
         <div class="nav-sublinks" id="navSublinks">
@@ -79,7 +82,7 @@
           <a class="nav-sublink" onclick="navToProject(4)">Şarkı Kapakları</a>
         </div>
       </div>
-      <a class="nav-link" onclick="navTo('contact')" data-tr="İletişim" data-en="Contact">İletişim</a>
+      <a class="nav-link" href="#contact" onclick="navTo('contact')" data-tr="İletişim" data-en="Contact">İletişim</a>
     </nav>
     <div class="nav-footer">
       <a href="mailto:beranursahin@gmail.com" class="nav-email">beranursahin@gmail.com</a>
@@ -300,7 +303,7 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
         <span>beranursahin@gmail.com</span>
       </a>
-      <a href="https://wa.me/905541431975" class="contact-link contact-link-whatsapp" target="_blank" rel="noopener">
+      <a href="https://wa.me/905305240510" class="contact-link contact-link-whatsapp" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
         <span data-tr="WhatsApp'tan yaz" data-en="Message on WhatsApp">WhatsApp'tan yaz</span>
       </a>
@@ -326,7 +329,7 @@
   <button class="lightbox-nav lightbox-prev" onclick="navigateLightbox(-1)" aria-label="Previous">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
   </button>
-  <img id="lightboxImg" src="" alt="" loading="lazy">
+  <img id="lightboxImg" alt="" loading="lazy">
   <button class="lightbox-nav lightbox-next" onclick="navigateLightbox(1)" aria-label="Next">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
   </button>

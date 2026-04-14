@@ -268,7 +268,11 @@ function switchTab(btn,idx){
   var tabs=projectDetail.querySelectorAll('.tab-content');
   for(var j=0;j<tabs.length;j++) tabs[j].classList.remove('active');
   var t=projectDetail.querySelector('.tab-content[data-tab="'+idx+'"]');
-  if(t) t.classList.add('active');
+  if(t){
+    t.classList.add('active');
+    var lazyImgs=t.querySelectorAll('img[loading="lazy"]');
+    for(var k=0;k<lazyImgs.length;k++) lazyImgs[k].loading='eager';
+  }
 }
 
 /* ===== LIGHTBOX ===== */
