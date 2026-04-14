@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Beraanur Şahin — The Black Dot | Grafik Tasarım Portfolyosu</title>
     <link>https://theblackdot.work</link>
     <description>Ankara merkezli freelance sosyal medya yöneticisi ve grafik tasarımcı. Marka kimliği, logo, sosyal medya içerik tasarımı ve yönetimi.</description>
     <language>tr</language>
     <copyright>© 2026 The Black Dot. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 13 Apr 2026 00:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 14 Apr 2026 00:00:00 +0300</lastBuildDate>
     <atom:link href="https://theblackdot.work/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://theblackdot.work/logo.png</url>
@@ -14,68 +16,1268 @@
       <link>https://theblackdot.work</link>
     </image>
 
+    <!-- ═══════════════════════════════════════════
+         VORTIFY MEDIA — Carousel 1 (4 görsel)
+    ═══════════════════════════════════════════ -->
     <item>
-      <title>Vortify Media — Sosyal Medya ve Carousel Tasarımı</title>
+      <title>Vortify Media — Carousel 1 (1/4)</title>
       <link>https://theblackdot.work#vortify</link>
-      <guid isPermaLink="false">theblackdott-vortify-media</guid>
-      <description>Dijital büyüme için yaratıcı içerik çözümleri. Reklam ajansı için sosyal medya içerik üretimi, carousel tasarımları ve baskı/yayın çalışmaları. Font: Abril Display Regular.</description>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0300</pubDate>
-      <enclosure url="https://theblackdot.work/vortify/ana.jpg" type="image/jpeg" length="0"/>
+      <guid isPermaLink="false">theblackdott-vortify-carousel-1-1</guid>
+      <description>Dijital büyüme için yaratıcı içerik çözümleri. Reklam ajansı için carousel tasarımı. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:00:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/carousel-1/1.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/carousel-1/1.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
       <category>Sosyal Medya</category>
       <category>Carousel Tasarımı</category>
-      <category>Baskı/Yayın</category>
+    </item>
+
+    <item>
+      <title>Vortify Media — Carousel 1 (2/4)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-carousel-1-2</guid>
+      <description>Dijital büyüme için yaratıcı içerik çözümleri. Reklam ajansı için carousel tasarımı. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:01:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/carousel-1/2.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/carousel-1/2.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>Carousel Tasarımı</category>
+    </item>
+
+    <item>
+      <title>Vortify Media — Carousel 1 (3/4)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-carousel-1-3</guid>
+      <description>Dijital büyüme için yaratıcı içerik çözümleri. Reklam ajansı için carousel tasarımı. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:02:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/carousel-1/3.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/carousel-1/3.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>Carousel Tasarımı</category>
+    </item>
+
+    <item>
+      <title>Vortify Media — Carousel 1 (4/4)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-carousel-1-4</guid>
+      <description>Dijital büyüme için yaratıcı içerik çözümleri. Reklam ajansı için carousel tasarımı. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:03:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/carousel-1/4.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/carousel-1/4.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>Carousel Tasarımı</category>
+    </item>
+
+    <!-- ═══════════════════════════════════════════
+         VORTIFY MEDIA — Carousel 2 (3 görsel)
+    ═══════════════════════════════════════════ -->
+    <item>
+      <title>Vortify Media — Carousel 2 (1/3)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-carousel-2-1</guid>
+      <description>Dijital büyüme için yaratıcı içerik çözümleri. Reklam ajansı için carousel tasarımı. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:04:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/carousel-2/1.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/carousel-2/1.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>Carousel Tasarımı</category>
+    </item>
+
+    <item>
+      <title>Vortify Media — Carousel 2 (2/3)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-carousel-2-2</guid>
+      <description>Dijital büyüme için yaratıcı içerik çözümleri. Reklam ajansı için carousel tasarımı. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:05:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/carousel-2/2.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/carousel-2/2.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>Carousel Tasarımı</category>
+    </item>
+
+    <item>
+      <title>Vortify Media — Carousel 2 (3/3)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-carousel-2-3</guid>
+      <description>Dijital büyüme için yaratıcı içerik çözümleri. Reklam ajansı için carousel tasarımı. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:06:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/carousel-2/3.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/carousel-2/3.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>Carousel Tasarımı</category>
+    </item>
+
+    <!-- ═══════════════════════════════════════════
+         VORTIFY MEDIA — Carousel 3 (4 görsel)
+    ═══════════════════════════════════════════ -->
+    <item>
+      <title>Vortify Media — Carousel 3 (1/4)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-carousel-3-1</guid>
+      <description>Dijital büyüme için yaratıcı içerik çözümleri. Reklam ajansı için carousel tasarımı. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:07:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/carousel-3/1.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/carousel-3/1.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>Carousel Tasarımı</category>
+    </item>
+
+    <item>
+      <title>Vortify Media — Carousel 3 (2/4)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-carousel-3-2</guid>
+      <description>Dijital büyüme için yaratıcı içerik çözümleri. Reklam ajansı için carousel tasarımı. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:08:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/carousel-3/2.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/carousel-3/2.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>Carousel Tasarımı</category>
+    </item>
+
+    <item>
+      <title>Vortify Media — Carousel 3 (3/4)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-carousel-3-3</guid>
+      <description>Dijital büyüme için yaratıcı içerik çözümleri. Reklam ajansı için carousel tasarımı. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:09:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/carousel-3/3.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/carousel-3/3.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>Carousel Tasarımı</category>
+    </item>
+
+    <item>
+      <title>Vortify Media — Carousel 3 (4/4)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-carousel-3-4</guid>
+      <description>Dijital büyüme için yaratıcı içerik çözümleri. Reklam ajansı için carousel tasarımı. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:10:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/carousel-3/4.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/carousel-3/4.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>Carousel Tasarımı</category>
+    </item>
+
+    <!-- ═══════════════════════════════════════════
+         VORTIFY MEDIA — Carousel 4 (5 görsel)
+    ═══════════════════════════════════════════ -->
+    <item>
+      <title>Vortify Media — Carousel 4 (1/5)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-carousel-4-1</guid>
+      <description>Dijital büyüme için yaratıcı içerik çözümleri. Reklam ajansı için carousel tasarımı. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:11:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/carousel-4/1.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/carousel-4/1.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>Carousel Tasarımı</category>
+    </item>
+
+    <item>
+      <title>Vortify Media — Carousel 4 (2/5)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-carousel-4-2</guid>
+      <description>Dijital büyüme için yaratıcı içerik çözümleri. Reklam ajansı için carousel tasarımı. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:12:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/carousel-4/2.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/carousel-4/2.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>Carousel Tasarımı</category>
+    </item>
+
+    <item>
+      <title>Vortify Media — Carousel 4 (3/5)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-carousel-4-3</guid>
+      <description>Dijital büyüme için yaratıcı içerik çözümleri. Reklam ajansı için carousel tasarımı. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:13:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/carousel-4/3.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/carousel-4/3.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>Carousel Tasarımı</category>
+    </item>
+
+    <item>
+      <title>Vortify Media — Carousel 4 (4/5)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-carousel-4-4</guid>
+      <description>Dijital büyüme için yaratıcı içerik çözümleri. Reklam ajansı için carousel tasarımı. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:14:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/carousel-4/4.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/carousel-4/4.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>Carousel Tasarımı</category>
+    </item>
+
+    <item>
+      <title>Vortify Media — Carousel 4 (5/5)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-carousel-4-5</guid>
+      <description>Dijital büyüme için yaratıcı içerik çözümleri. Reklam ajansı için carousel tasarımı. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:15:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/carousel-4/5.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/carousel-4/5.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>Carousel Tasarımı</category>
+    </item>
+
+    <!-- ═══════════════════════════════════════════
+         VORTIFY MEDIA — Postlar (12 görsel)
+    ═══════════════════════════════════════════ -->
+    <item>
+      <title>Vortify Media — Sosyal Medya Post (1/12)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-post-1</guid>
+      <description>Dijital büyüme için yaratıcı içerik çözümleri. Sosyal medya içerik üretimi. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:16:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/posts/1.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/posts/1.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Sosyal Medya</category>
       <category>İçerik Üretimi</category>
     </item>
 
     <item>
-      <title>Şoför Go — Marka Kimliği ve Logo Tasarımı</title>
+      <title>Vortify Media — Sosyal Medya Post (2/12)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-post-3</guid>
+      <description>Dijital büyüme için yaratıcı içerik çözümleri. Sosyal medya içerik üretimi. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:17:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/posts/3.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/posts/3.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>İçerik Üretimi</category>
+    </item>
+
+    <item>
+      <title>Vortify Media — Sosyal Medya Post (3/12)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-post-4</guid>
+      <description>Dijital büyüme için yaratıcı içerik çözümleri. Sosyal medya içerik üretimi. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:18:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/posts/4.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/posts/4.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>İçerik Üretimi</category>
+    </item>
+
+    <item>
+      <title>Vortify Media — Sosyal Medya Post (4/12)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-post-5</guid>
+      <description>Dijital büyüme için yaratıcı içerik çözümleri. Sosyal medya içerik üretimi. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:19:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/posts/5.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/posts/5.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>İçerik Üretimi</category>
+    </item>
+
+    <item>
+      <title>Vortify Media — Sosyal Medya Post (5/12)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-post-6</guid>
+      <description>Dijital büyüme için yaratıcı içerik çözümleri. Sosyal medya içerik üretimi. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:20:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/posts/6.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/posts/6.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>İçerik Üretimi</category>
+    </item>
+
+    <item>
+      <title>Vortify Media — Sosyal Medya Post (6/12)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-post-7</guid>
+      <description>Dijital büyüme için yaratıcı içerik çözümleri. Sosyal medya içerik üretimi. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:21:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/posts/7.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/posts/7.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>İçerik Üretimi</category>
+    </item>
+
+    <item>
+      <title>Vortify Media — Sosyal Medya Post (7/12)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-post-8</guid>
+      <description>Dijital büyüme için yaratıcı içerik çözümleri. Sosyal medya içerik üretimi. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:22:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/posts/8.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/posts/8.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>İçerik Üretimi</category>
+    </item>
+
+    <item>
+      <title>Vortify Media — Sosyal Medya Post (8/12)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-post-9</guid>
+      <description>Dijital büyüme için yaratıcı içerik çözümleri. Sosyal medya içerik üretimi. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:23:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/posts/9.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/posts/9.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>İçerik Üretimi</category>
+    </item>
+
+    <item>
+      <title>Vortify Media — Sosyal Medya Post (9/12)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-post-10</guid>
+      <description>Dijital büyüme için yaratıcı içerik çözümleri. Sosyal medya içerik üretimi. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:24:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/posts/10.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/posts/10.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>İçerik Üretimi</category>
+    </item>
+
+    <item>
+      <title>Vortify Media — Sosyal Medya Post (10/12)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-post-11</guid>
+      <description>Dijital büyüme için yaratıcı içerik çözümleri. Sosyal medya içerik üretimi. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:25:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/posts/11.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/posts/11.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>İçerik Üretimi</category>
+    </item>
+
+    <item>
+      <title>Vortify Media — Sosyal Medya Post (11/12)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-post-12</guid>
+      <description>Dijital büyüme için yaratıcı içerik çözümleri. Sosyal medya içerik üretimi. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:26:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/posts/12.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/posts/12.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>İçerik Üretimi</category>
+    </item>
+
+    <item>
+      <title>Vortify Media — Sosyal Medya Post (12/12)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-post-13</guid>
+      <description>Dijital büyüme için yaratıcı içerik çözümleri. Sosyal medya içerik üretimi. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:27:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/posts/13.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/posts/13.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>İçerik Üretimi</category>
+    </item>
+
+    <!-- ═══════════════════════════════════════════
+         VORTIFY MEDIA — Baskı 1 (7 görsel)
+    ═══════════════════════════════════════════ -->
+    <item>
+      <title>Vortify Media — Baskı Tasarımı 1 (1/7)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-print1-1</guid>
+      <description>Reklam ajansı için baskı ve yayın çalışmaları. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:28:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/print-1/1.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/print-1/1.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Baskı Tasarımı</category>
+      <category>İçerik Üretimi</category>
+    </item>
+
+    <item>
+      <title>Vortify Media — Baskı Tasarımı 1 (2/7)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-print1-2</guid>
+      <description>Reklam ajansı için baskı ve yayın çalışmaları. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:29:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/print-1/2.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/print-1/2.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Baskı Tasarımı</category>
+      <category>İçerik Üretimi</category>
+    </item>
+
+    <item>
+      <title>Vortify Media — Baskı Tasarımı 1 (3/7)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-print1-3</guid>
+      <description>Reklam ajansı için baskı ve yayın çalışmaları. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:30:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/print-1/3.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/print-1/3.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Baskı Tasarımı</category>
+      <category>İçerik Üretimi</category>
+    </item>
+
+    <item>
+      <title>Vortify Media — Baskı Tasarımı 1 (4/7)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-print1-4</guid>
+      <description>Reklam ajansı için baskı ve yayın çalışmaları. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:31:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/print-1/4.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/print-1/4.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Baskı Tasarımı</category>
+      <category>İçerik Üretimi</category>
+    </item>
+
+    <item>
+      <title>Vortify Media — Baskı Tasarımı 1 (5/7)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-print1-5</guid>
+      <description>Reklam ajansı için baskı ve yayın çalışmaları. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:32:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/print-1/5.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/print-1/5.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Baskı Tasarımı</category>
+      <category>İçerik Üretimi</category>
+    </item>
+
+    <item>
+      <title>Vortify Media — Baskı Tasarımı 1 (6/7)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-print1-6</guid>
+      <description>Reklam ajansı için baskı ve yayın çalışmaları. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:33:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/print-1/6.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/print-1/6.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Baskı Tasarımı</category>
+      <category>İçerik Üretimi</category>
+    </item>
+
+    <item>
+      <title>Vortify Media — Baskı Tasarımı 1 (7/7)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-print1-7</guid>
+      <description>Reklam ajansı için baskı ve yayın çalışmaları. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:34:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/print-1/7.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/print-1/7.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Baskı Tasarımı</category>
+      <category>İçerik Üretimi</category>
+    </item>
+
+    <!-- ═══════════════════════════════════════════
+         VORTIFY MEDIA — Baskı 2 (5 görsel)
+    ═══════════════════════════════════════════ -->
+    <item>
+      <title>Vortify Media — Baskı Tasarımı 2 (1/5)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-print2-1</guid>
+      <description>Reklam ajansı için baskı ve yayın çalışmaları. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:35:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/print-2/1.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/print-2/1.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Baskı Tasarımı</category>
+      <category>İçerik Üretimi</category>
+    </item>
+
+    <item>
+      <title>Vortify Media — Baskı Tasarımı 2 (2/5)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-print2-2</guid>
+      <description>Reklam ajansı için baskı ve yayın çalışmaları. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:36:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/print-2/2.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/print-2/2.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Baskı Tasarımı</category>
+      <category>İçerik Üretimi</category>
+    </item>
+
+    <item>
+      <title>Vortify Media — Baskı Tasarımı 2 (3/5)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-print2-3</guid>
+      <description>Reklam ajansı için baskı ve yayın çalışmaları. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:37:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/print-2/3.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/print-2/3.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Baskı Tasarımı</category>
+      <category>İçerik Üretimi</category>
+    </item>
+
+    <item>
+      <title>Vortify Media — Baskı Tasarımı 2 (4/5)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-print2-4</guid>
+      <description>Reklam ajansı için baskı ve yayın çalışmaları. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:38:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/print-2/4.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/print-2/4.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Baskı Tasarımı</category>
+      <category>İçerik Üretimi</category>
+    </item>
+
+    <item>
+      <title>Vortify Media — Baskı Tasarımı 2 (5/5)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-print2-5</guid>
+      <description>Reklam ajansı için baskı ve yayın çalışmaları. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:39:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/print-2/5.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/print-2/5.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Baskı Tasarımı</category>
+      <category>İçerik Üretimi</category>
+    </item>
+
+    <!-- ═══════════════════════════════════════════
+         VORTIFY MEDIA — Baskı 3 (5 görsel)
+    ═══════════════════════════════════════════ -->
+    <item>
+      <title>Vortify Media — Baskı Tasarımı 3 (1/5)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-print3-1</guid>
+      <description>Reklam ajansı için baskı ve yayın çalışmaları. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:40:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/print-3/1.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/print-3/1.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Baskı Tasarımı</category>
+      <category>İçerik Üretimi</category>
+    </item>
+
+    <item>
+      <title>Vortify Media — Baskı Tasarımı 3 (2/5)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-print3-2</guid>
+      <description>Reklam ajansı için baskı ve yayın çalışmaları. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:41:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/print-3/2.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/print-3/2.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Baskı Tasarımı</category>
+      <category>İçerik Üretimi</category>
+    </item>
+
+    <item>
+      <title>Vortify Media — Baskı Tasarımı 3 (3/5)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-print3-3</guid>
+      <description>Reklam ajansı için baskı ve yayın çalışmaları. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:42:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/print-3/3.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/print-3/3.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Baskı Tasarımı</category>
+      <category>İçerik Üretimi</category>
+    </item>
+
+    <item>
+      <title>Vortify Media — Baskı Tasarımı 3 (4/5)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-print3-4</guid>
+      <description>Reklam ajansı için baskı ve yayın çalışmaları. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:43:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/print-3/4.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/print-3/4.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Baskı Tasarımı</category>
+      <category>İçerik Üretimi</category>
+    </item>
+
+    <item>
+      <title>Vortify Media — Baskı Tasarımı 3 (5/5)</title>
+      <link>https://theblackdot.work#vortify</link>
+      <guid isPermaLink="false">theblackdott-vortify-print3-5</guid>
+      <description>Reklam ajansı için baskı ve yayın çalışmaları. Font: Abril Display Regular.</description>
+      <pubDate>Mon, 14 Apr 2026 00:44:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/vortify/print-3/5.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/vortify/print-3/5.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Baskı Tasarımı</category>
+      <category>İçerik Üretimi</category>
+    </item>
+
+    <!-- ═══════════════════════════════════════════
+         ŞOFÖR GO — Marka (2 görsel)
+    ═══════════════════════════════════════════ -->
+    <item>
+      <title>Şoför Go — Uygulama Logosu</title>
       <link>https://theblackdot.work#sofor-go</link>
-      <guid isPermaLink="false">theblackdott-sofor-go</guid>
-      <description>Aracın sende, Sürüş bizde. Profesyonel şoför hizmeti için full marka kimliği: logo, renk, tipografi, sosyal medya şablonları, app UI ve kurumsal kimlik. Font: Proxima Nova.</description>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0300</pubDate>
-      <enclosure url="https://theblackdot.work/sofor-go/ana.jpg" type="image/jpeg" length="0"/>
+      <guid isPermaLink="false">theblackdott-soforgo-brand-applogo</guid>
+      <description>Aracın sende, Sürüş bizde. Profesyonel şoför hizmeti için full marka kimliği. Font: Proxima Nova.</description>
+      <pubDate>Mon, 14 Apr 2026 00:45:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/sofor-go/brand/applogo.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/sofor-go/brand/applogo.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
       <category>Logo Tasarımı</category>
       <category>Marka Kimliği</category>
-      <category>Sosyal Medya</category>
       <category>App UI</category>
     </item>
 
     <item>
-      <title>The Little Black Book Bodrum — Lifestyle İçerik Markası</title>
-      <link>https://theblackdot.work#tlbb</link>
-      <guid isPermaLink="false">theblackdott-tlbb</guid>
-      <description>Bodrum'daki seçili mekan ve deneyimleri kürate eden lifestyle içerik markası. Minimal ve rafine estetik yaklaşım. Font: Inter.</description>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0300</pubDate>
-      <enclosure url="https://theblackdot.work/thelittleblackbook/ana.jpg" type="image/jpeg" length="0"/>
-      <category>İçerik Kurgusu</category>
-      <category>Görsel Kimlik</category>
-      <category>Sosyal Medya</category>
-      <category>Editorial Tasarım</category>
+      <title>Şoför Go — Logo Tasarımı</title>
+      <link>https://theblackdot.work#sofor-go</link>
+      <guid isPermaLink="false">theblackdott-soforgo-brand-logo</guid>
+      <description>Aracın sende, Sürüş bizde. Profesyonel şoför hizmeti için full marka kimliği. Font: Proxima Nova.</description>
+      <pubDate>Mon, 14 Apr 2026 00:46:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/sofor-go/brand/logo.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/sofor-go/brand/logo.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Logo Tasarımı</category>
+      <category>Marka Kimliği</category>
+    </item>
+
+    <!-- ═══════════════════════════════════════════
+         ŞOFÖR GO — Mockup (3 görsel)
+    ═══════════════════════════════════════════ -->
+    <item>
+      <title>Şoför Go — Mockup (1/3)</title>
+      <link>https://theblackdot.work#sofor-go</link>
+      <guid isPermaLink="false">theblackdott-soforgo-mockup-1</guid>
+      <description>Aracın sende, Sürüş bizde. Profesyonel şoför hizmeti marka kimliği uygulama mockupları. Font: Proxima Nova.</description>
+      <pubDate>Mon, 14 Apr 2026 00:47:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/sofor-go/mockup/m2.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/sofor-go/mockup/m2.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Marka Kimliği</category>
+      <category>Mockup</category>
     </item>
 
     <item>
-      <title>Parfüm Mutfağı — Premium Ürün Görselleri ve Sosyal Medya</title>
+      <title>Şoför Go — Mockup (2/3)</title>
+      <link>https://theblackdot.work#sofor-go</link>
+      <guid isPermaLink="false">theblackdott-soforgo-mockup-2</guid>
+      <description>Aracın sende, Sürüş bizde. Profesyonel şoför hizmeti marka kimliği uygulama mockupları. Font: Proxima Nova.</description>
+      <pubDate>Mon, 14 Apr 2026 00:48:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/sofor-go/mockup/m3.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/sofor-go/mockup/m3.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
+      <category>Marka Kimliği</category>
+      <category>Mockup</category>
+    </item>
+
+    <item>
+      <title>Şoför Go — Mockup (3/3)</title>
+      <link>https://theblackdot.work#sofor-go</link>
+      <guid isPermaLink="false">theblackdott-soforgo-mockup-3</guid>
+      <description>Aracın sende, Sürüş bizde. Profesyonel şoför hizmeti marka kimliği uygulama mockupları. Font: Proxima Nova.</description>
+      <pubDate>Mon, 14 Apr 2026 00:49:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/sofor-go/mockup/m4.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/sofor-go/mockup/m4.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
+      <category>Marka Kimliği</category>
+      <category>Mockup</category>
+    </item>
+
+    <!-- ═══════════════════════════════════════════
+         ŞOFÖR GO — Postlar (6 görsel)
+    ═══════════════════════════════════════════ -->
+    <item>
+      <title>Şoför Go — Sosyal Medya Post (1/6)</title>
+      <link>https://theblackdot.work#sofor-go</link>
+      <guid isPermaLink="false">theblackdott-soforgo-post-t1</guid>
+      <description>Profesyonel şoför hizmeti için sosyal medya içerik tasarımı. Font: Proxima Nova.</description>
+      <pubDate>Mon, 14 Apr 2026 00:50:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/sofor-go/posts/t1.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/sofor-go/posts/t1.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>Marka Kimliği</category>
+    </item>
+
+    <item>
+      <title>Şoför Go — Sosyal Medya Post (2/6)</title>
+      <link>https://theblackdot.work#sofor-go</link>
+      <guid isPermaLink="false">theblackdott-soforgo-post-t2</guid>
+      <description>Profesyonel şoför hizmeti için sosyal medya içerik tasarımı. Font: Proxima Nova.</description>
+      <pubDate>Mon, 14 Apr 2026 00:51:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/sofor-go/posts/t2.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/sofor-go/posts/t2.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>Marka Kimliği</category>
+    </item>
+
+    <item>
+      <title>Şoför Go — Sosyal Medya Post (3/6)</title>
+      <link>https://theblackdot.work#sofor-go</link>
+      <guid isPermaLink="false">theblackdott-soforgo-post-t3</guid>
+      <description>Profesyonel şoför hizmeti için sosyal medya içerik tasarımı. Font: Proxima Nova.</description>
+      <pubDate>Mon, 14 Apr 2026 00:52:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/sofor-go/posts/t3.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/sofor-go/posts/t3.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>Marka Kimliği</category>
+    </item>
+
+    <item>
+      <title>Şoför Go — Sosyal Medya Post (4/6)</title>
+      <link>https://theblackdot.work#sofor-go</link>
+      <guid isPermaLink="false">theblackdott-soforgo-post-t6</guid>
+      <description>Profesyonel şoför hizmeti için sosyal medya içerik tasarımı. Font: Proxima Nova.</description>
+      <pubDate>Mon, 14 Apr 2026 00:53:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/sofor-go/posts/t6.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/sofor-go/posts/t6.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>Marka Kimliği</category>
+    </item>
+
+    <item>
+      <title>Şoför Go — Sosyal Medya Post (5/6)</title>
+      <link>https://theblackdot.work#sofor-go</link>
+      <guid isPermaLink="false">theblackdott-soforgo-post-t7</guid>
+      <description>Profesyonel şoför hizmeti için sosyal medya içerik tasarımı. Font: Proxima Nova.</description>
+      <pubDate>Mon, 14 Apr 2026 00:54:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/sofor-go/posts/t7.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/sofor-go/posts/t7.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>Marka Kimliği</category>
+    </item>
+
+    <item>
+      <title>Şoför Go — Sosyal Medya Post (6/6)</title>
+      <link>https://theblackdot.work#sofor-go</link>
+      <guid isPermaLink="false">theblackdott-soforgo-post-t8</guid>
+      <description>Profesyonel şoför hizmeti için sosyal medya içerik tasarımı. Font: Proxima Nova.</description>
+      <pubDate>Mon, 14 Apr 2026 00:55:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/sofor-go/posts/t8.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/sofor-go/posts/t8.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>Marka Kimliği</category>
+    </item>
+
+    <!-- ═══════════════════════════════════════════
+         THE LITTLE BLACK BOOK — Postlar (9 görsel)
+    ═══════════════════════════════════════════ -->
+    <item>
+      <title>The Little Black Book Bodrum — Post (1/9)</title>
+      <link>https://theblackdot.work#tlbb</link>
+      <guid isPermaLink="false">theblackdott-tlbb-post-1</guid>
+      <description>Bodrum'daki seçili mekan ve deneyimleri kürate eden lifestyle içerik markası. Minimal ve rafine estetik. Font: Inter.</description>
+      <pubDate>Mon, 14 Apr 2026 00:56:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/thelittleblackbook/posts/1.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/thelittleblackbook/posts/1.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
+      <category>Editorial Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>Lifestyle</category>
+    </item>
+
+    <item>
+      <title>The Little Black Book Bodrum — Post (2/9)</title>
+      <link>https://theblackdot.work#tlbb</link>
+      <guid isPermaLink="false">theblackdott-tlbb-post-2</guid>
+      <description>Bodrum'daki seçili mekan ve deneyimleri kürate eden lifestyle içerik markası. Minimal ve rafine estetik. Font: Inter.</description>
+      <pubDate>Mon, 14 Apr 2026 00:57:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/thelittleblackbook/posts/2.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/thelittleblackbook/posts/2.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
+      <category>Editorial Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>Lifestyle</category>
+    </item>
+
+    <item>
+      <title>The Little Black Book Bodrum — Post (3/9)</title>
+      <link>https://theblackdot.work#tlbb</link>
+      <guid isPermaLink="false">theblackdott-tlbb-post-3</guid>
+      <description>Bodrum'daki seçili mekan ve deneyimleri kürate eden lifestyle içerik markası. Minimal ve rafine estetik. Font: Inter.</description>
+      <pubDate>Mon, 14 Apr 2026 00:58:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/thelittleblackbook/posts/3.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/thelittleblackbook/posts/3.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
+      <category>Editorial Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>Lifestyle</category>
+    </item>
+
+    <item>
+      <title>The Little Black Book Bodrum — Post (4/9)</title>
+      <link>https://theblackdot.work#tlbb</link>
+      <guid isPermaLink="false">theblackdott-tlbb-post-4</guid>
+      <description>Bodrum'daki seçili mekan ve deneyimleri kürate eden lifestyle içerik markası. Minimal ve rafine estetik. Font: Inter.</description>
+      <pubDate>Mon, 14 Apr 2026 00:59:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/thelittleblackbook/posts/4.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/thelittleblackbook/posts/4.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
+      <category>Editorial Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>Lifestyle</category>
+    </item>
+
+    <item>
+      <title>The Little Black Book Bodrum — Post (5/9)</title>
+      <link>https://theblackdot.work#tlbb</link>
+      <guid isPermaLink="false">theblackdott-tlbb-post-5</guid>
+      <description>Bodrum'daki seçili mekan ve deneyimleri kürate eden lifestyle içerik markası. Minimal ve rafine estetik. Font: Inter.</description>
+      <pubDate>Mon, 14 Apr 2026 01:00:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/thelittleblackbook/posts/5.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/thelittleblackbook/posts/5.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
+      <category>Editorial Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>Lifestyle</category>
+    </item>
+
+    <item>
+      <title>The Little Black Book Bodrum — Post (6/9)</title>
+      <link>https://theblackdot.work#tlbb</link>
+      <guid isPermaLink="false">theblackdott-tlbb-post-6</guid>
+      <description>Bodrum'daki seçili mekan ve deneyimleri kürate eden lifestyle içerik markası. Minimal ve rafine estetik. Font: Inter.</description>
+      <pubDate>Mon, 14 Apr 2026 01:01:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/thelittleblackbook/posts/6.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/thelittleblackbook/posts/6.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
+      <category>Editorial Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>Lifestyle</category>
+    </item>
+
+    <item>
+      <title>The Little Black Book Bodrum — Post (7/9)</title>
+      <link>https://theblackdot.work#tlbb</link>
+      <guid isPermaLink="false">theblackdott-tlbb-post-7</guid>
+      <description>Bodrum'daki seçili mekan ve deneyimleri kürate eden lifestyle içerik markası. Minimal ve rafine estetik. Font: Inter.</description>
+      <pubDate>Mon, 14 Apr 2026 01:02:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/thelittleblackbook/posts/7.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/thelittleblackbook/posts/7.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
+      <category>Editorial Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>Lifestyle</category>
+    </item>
+
+    <item>
+      <title>The Little Black Book Bodrum — Post (8/9)</title>
+      <link>https://theblackdot.work#tlbb</link>
+      <guid isPermaLink="false">theblackdott-tlbb-post-8</guid>
+      <description>Bodrum'daki seçili mekan ve deneyimleri kürate eden lifestyle içerik markası. Minimal ve rafine estetik. Font: Inter.</description>
+      <pubDate>Mon, 14 Apr 2026 01:03:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/thelittleblackbook/posts/8.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/thelittleblackbook/posts/8.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
+      <category>Editorial Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>Lifestyle</category>
+    </item>
+
+    <item>
+      <title>The Little Black Book Bodrum — Post (9/9)</title>
+      <link>https://theblackdot.work#tlbb</link>
+      <guid isPermaLink="false">theblackdott-tlbb-post-9</guid>
+      <description>Bodrum'daki seçili mekan ve deneyimleri kürate eden lifestyle içerik markası. Minimal ve rafine estetik. Font: Inter.</description>
+      <pubDate>Mon, 14 Apr 2026 01:04:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/thelittleblackbook/posts/9.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/thelittleblackbook/posts/9.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
+      <category>Editorial Tasarım</category>
+      <category>Sosyal Medya</category>
+      <category>Lifestyle</category>
+    </item>
+
+    <!-- ═══════════════════════════════════════════
+         THE LITTLE BLACK BOOK — Story (6 görsel)
+    ═══════════════════════════════════════════ -->
+    <item>
+      <title>The Little Black Book Bodrum — Story (1/6)</title>
+      <link>https://theblackdot.work#tlbb</link>
+      <guid isPermaLink="false">theblackdott-tlbb-story-1</guid>
+      <description>Bodrum'daki seçili mekan ve deneyimleri kürate eden lifestyle içerik markası. Minimal ve rafine estetik. Font: Inter.</description>
+      <pubDate>Mon, 14 Apr 2026 01:05:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/thelittleblackbook/story/1.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/thelittleblackbook/story/1.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
+      <category>Editorial Tasarım</category>
+      <category>Instagram Story</category>
+      <category>Lifestyle</category>
+    </item>
+
+    <item>
+      <title>The Little Black Book Bodrum — Story (2/6)</title>
+      <link>https://theblackdot.work#tlbb</link>
+      <guid isPermaLink="false">theblackdott-tlbb-story-2</guid>
+      <description>Bodrum'daki seçili mekan ve deneyimleri kürate eden lifestyle içerik markası. Minimal ve rafine estetik. Font: Inter.</description>
+      <pubDate>Mon, 14 Apr 2026 01:06:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/thelittleblackbook/story/2.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/thelittleblackbook/story/2.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
+      <category>Editorial Tasarım</category>
+      <category>Instagram Story</category>
+      <category>Lifestyle</category>
+    </item>
+
+    <item>
+      <title>The Little Black Book Bodrum — Story (3/6)</title>
+      <link>https://theblackdot.work#tlbb</link>
+      <guid isPermaLink="false">theblackdott-tlbb-story-3</guid>
+      <description>Bodrum'daki seçili mekan ve deneyimleri kürate eden lifestyle içerik markası. Minimal ve rafine estetik. Font: Inter.</description>
+      <pubDate>Mon, 14 Apr 2026 01:07:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/thelittleblackbook/story/3.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/thelittleblackbook/story/3.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
+      <category>Editorial Tasarım</category>
+      <category>Instagram Story</category>
+      <category>Lifestyle</category>
+    </item>
+
+    <item>
+      <title>The Little Black Book Bodrum — Story (4/6)</title>
+      <link>https://theblackdot.work#tlbb</link>
+      <guid isPermaLink="false">theblackdott-tlbb-story-4</guid>
+      <description>Bodrum'daki seçili mekan ve deneyimleri kürate eden lifestyle içerik markası. Minimal ve rafine estetik. Font: Inter.</description>
+      <pubDate>Mon, 14 Apr 2026 01:08:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/thelittleblackbook/story/4.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/thelittleblackbook/story/4.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
+      <category>Editorial Tasarım</category>
+      <category>Instagram Story</category>
+      <category>Lifestyle</category>
+    </item>
+
+    <item>
+      <title>The Little Black Book Bodrum — Story (5/6)</title>
+      <link>https://theblackdot.work#tlbb</link>
+      <guid isPermaLink="false">theblackdott-tlbb-story-5</guid>
+      <description>Bodrum'daki seçili mekan ve deneyimleri kürate eden lifestyle içerik markası. Minimal ve rafine estetik. Font: Inter.</description>
+      <pubDate>Mon, 14 Apr 2026 01:09:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/thelittleblackbook/story/5.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/thelittleblackbook/story/5.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
+      <category>Editorial Tasarım</category>
+      <category>Instagram Story</category>
+      <category>Lifestyle</category>
+    </item>
+
+    <item>
+      <title>The Little Black Book Bodrum — Story (6/6)</title>
+      <link>https://theblackdot.work#tlbb</link>
+      <guid isPermaLink="false">theblackdott-tlbb-story-6</guid>
+      <description>Bodrum'daki seçili mekan ve deneyimleri kürate eden lifestyle içerik markası. Minimal ve rafine estetik. Font: Inter.</description>
+      <pubDate>Mon, 14 Apr 2026 01:10:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/thelittleblackbook/story/6.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/thelittleblackbook/story/6.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
+      <category>Editorial Tasarım</category>
+      <category>Instagram Story</category>
+      <category>Lifestyle</category>
+    </item>
+
+    <!-- ═══════════════════════════════════════════
+         PARFÜM MUTFAĞI — (10 görsel)
+    ═══════════════════════════════════════════ -->
+    <item>
+      <title>Parfüm Mutfağı — Premium Görsel (1/10)</title>
       <link>https://theblackdot.work#parfum</link>
-      <guid isPermaLink="false">theblackdott-parfum-mutfagi</guid>
+      <guid isPermaLink="false">theblackdott-parfum-1</guid>
       <description>Premium ve sade görsel dil ile ürün fotoğraf konseptleri ve sosyal medya içerik tasarımı. AI destekli görsel üretim. Font: Cormorant Garamond.</description>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0300</pubDate>
-      <enclosure url="https://theblackdot.work/parfum/ana.jpg" type="image/jpeg" length="0"/>
+      <pubDate>Mon, 14 Apr 2026 01:11:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/parfum/1.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/parfum/1.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
       <category>Ürün Görselleri</category>
       <category>Sosyal Medya</category>
       <category>AI Konsept</category>
-      <category>İçerik Kurgusu</category>
     </item>
 
     <item>
-      <title>Şarkı Kapakları — Albüm Kapağı Tasarımı</title>
+      <title>Parfüm Mutfağı — Premium Görsel (2/10)</title>
+      <link>https://theblackdot.work#parfum</link>
+      <guid isPermaLink="false">theblackdott-parfum-2</guid>
+      <description>Premium ve sade görsel dil ile ürün fotoğraf konseptleri ve sosyal medya içerik tasarımı. AI destekli görsel üretim. Font: Cormorant Garamond.</description>
+      <pubDate>Mon, 14 Apr 2026 01:12:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/parfum/2.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/parfum/2.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
+      <category>Ürün Görselleri</category>
+      <category>Sosyal Medya</category>
+      <category>AI Konsept</category>
+    </item>
+
+    <item>
+      <title>Parfüm Mutfağı — Premium Görsel (3/10)</title>
+      <link>https://theblackdot.work#parfum</link>
+      <guid isPermaLink="false">theblackdott-parfum-3</guid>
+      <description>Premium ve sade görsel dil ile ürün fotoğraf konseptleri ve sosyal medya içerik tasarımı. AI destekli görsel üretim. Font: Cormorant Garamond.</description>
+      <pubDate>Mon, 14 Apr 2026 01:13:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/parfum/3.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/parfum/3.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
+      <category>Ürün Görselleri</category>
+      <category>Sosyal Medya</category>
+      <category>AI Konsept</category>
+    </item>
+
+    <item>
+      <title>Parfüm Mutfağı — Premium Görsel (4/10)</title>
+      <link>https://theblackdot.work#parfum</link>
+      <guid isPermaLink="false">theblackdott-parfum-4</guid>
+      <description>Premium ve sade görsel dil ile ürün fotoğraf konseptleri ve sosyal medya içerik tasarımı. AI destekli görsel üretim. Font: Cormorant Garamond.</description>
+      <pubDate>Mon, 14 Apr 2026 01:14:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/parfum/4.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/parfum/4.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
+      <category>Ürün Görselleri</category>
+      <category>Sosyal Medya</category>
+      <category>AI Konsept</category>
+    </item>
+
+    <item>
+      <title>Parfüm Mutfağı — Premium Görsel (5/10)</title>
+      <link>https://theblackdot.work#parfum</link>
+      <guid isPermaLink="false">theblackdott-parfum-5</guid>
+      <description>Premium ve sade görsel dil ile ürün fotoğraf konseptleri ve sosyal medya içerik tasarımı. AI destekli görsel üretim. Font: Cormorant Garamond.</description>
+      <pubDate>Mon, 14 Apr 2026 01:15:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/parfum/5.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/parfum/5.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
+      <category>Ürün Görselleri</category>
+      <category>Sosyal Medya</category>
+      <category>AI Konsept</category>
+    </item>
+
+    <item>
+      <title>Parfüm Mutfağı — Premium Görsel (6/10)</title>
+      <link>https://theblackdot.work#parfum</link>
+      <guid isPermaLink="false">theblackdott-parfum-6</guid>
+      <description>Premium ve sade görsel dil ile ürün fotoğraf konseptleri ve sosyal medya içerik tasarımı. AI destekli görsel üretim. Font: Cormorant Garamond.</description>
+      <pubDate>Mon, 14 Apr 2026 01:16:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/parfum/6.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/parfum/6.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
+      <category>Ürün Görselleri</category>
+      <category>Sosyal Medya</category>
+      <category>AI Konsept</category>
+    </item>
+
+    <item>
+      <title>Parfüm Mutfağı — Premium Görsel (7/10)</title>
+      <link>https://theblackdot.work#parfum</link>
+      <guid isPermaLink="false">theblackdott-parfum-7</guid>
+      <description>Premium ve sade görsel dil ile ürün fotoğraf konseptleri ve sosyal medya içerik tasarımı. AI destekli görsel üretim. Font: Cormorant Garamond.</description>
+      <pubDate>Mon, 14 Apr 2026 01:17:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/parfum/7.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/parfum/7.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
+      <category>Ürün Görselleri</category>
+      <category>Sosyal Medya</category>
+      <category>AI Konsept</category>
+    </item>
+
+    <item>
+      <title>Parfüm Mutfağı — Premium Görsel (8/10)</title>
+      <link>https://theblackdot.work#parfum</link>
+      <guid isPermaLink="false">theblackdott-parfum-8</guid>
+      <description>Premium ve sade görsel dil ile ürün fotoğraf konseptleri ve sosyal medya içerik tasarımı. AI destekli görsel üretim. Font: Cormorant Garamond.</description>
+      <pubDate>Mon, 14 Apr 2026 01:18:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/parfum/8.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/parfum/8.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
+      <category>Ürün Görselleri</category>
+      <category>Sosyal Medya</category>
+      <category>AI Konsept</category>
+    </item>
+
+    <item>
+      <title>Parfüm Mutfağı — Premium Görsel (9/10)</title>
+      <link>https://theblackdot.work#parfum</link>
+      <guid isPermaLink="false">theblackdott-parfum-9</guid>
+      <description>Premium ve sade görsel dil ile ürün fotoğraf konseptleri ve sosyal medya içerik tasarımı. AI destekli görsel üretim. Font: Cormorant Garamond.</description>
+      <pubDate>Mon, 14 Apr 2026 01:19:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/parfum/9.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/parfum/9.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
+      <category>Ürün Görselleri</category>
+      <category>Sosyal Medya</category>
+      <category>AI Konsept</category>
+    </item>
+
+    <item>
+      <title>Parfüm Mutfağı — Premium Görsel (10/10)</title>
+      <link>https://theblackdot.work#parfum</link>
+      <guid isPermaLink="false">theblackdott-parfum-10</guid>
+      <description>Premium ve sade görsel dil ile ürün fotoğraf konseptleri ve sosyal medya içerik tasarımı. AI destekli görsel üretim. Font: Cormorant Garamond.</description>
+      <pubDate>Mon, 14 Apr 2026 01:20:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/parfum/10.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://theblackdot.work/parfum/10.jpg" medium="image" type="image/jpeg"/>
+      <category>Grafik Tasarım</category>
+      <category>Ürün Görselleri</category>
+      <category>Sosyal Medya</category>
+      <category>AI Konsept</category>
+    </item>
+
+    <!-- ═══════════════════════════════════════════
+         ŞARKI KAPAKLARI — (10 görsel)
+    ═══════════════════════════════════════════ -->
+    <item>
+      <title>Şarkı Kapakları — Albüm Kapağı Tasarımı (1/10)</title>
       <link>https://theblackdot.work#sarki</link>
-      <guid isPermaLink="false">theblackdott-sarki-kapaklari</guid>
+      <guid isPermaLink="false">theblackdott-sarki-1</guid>
       <description>Orijinal fotoğraflar kullanılarak tasarlanan albüm kapakları. Her kapak, müziğin ruhunu görsel bir dile çeviriyor. Font: Space Grotesk.</description>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0300</pubDate>
-      <enclosure url="https://theblackdot.work/sarki/sarki-kapagi-mockup/ana.png" type="image/png" length="0"/>
+      <pubDate>Mon, 14 Apr 2026 01:21:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/sarki/sarki-kapagi-mockup/1.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/sarki/sarki-kapagi-mockup/1.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
       <category>Albüm Kapağı</category>
-      <category>Fotoğraf</category>
       <category>Tipografi</category>
+      <category>Fotoğraf</category>
+    </item>
+
+    <item>
+      <title>Şarkı Kapakları — Albüm Kapağı Tasarımı (2/10)</title>
+      <link>https://theblackdot.work#sarki</link>
+      <guid isPermaLink="false">theblackdott-sarki-2</guid>
+      <description>Orijinal fotoğraflar kullanılarak tasarlanan albüm kapakları. Her kapak, müziğin ruhunu görsel bir dile çeviriyor. Font: Space Grotesk.</description>
+      <pubDate>Mon, 14 Apr 2026 01:22:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/sarki/sarki-kapagi-mockup/2.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/sarki/sarki-kapagi-mockup/2.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Albüm Kapağı</category>
+      <category>Tipografi</category>
+      <category>Fotoğraf</category>
+    </item>
+
+    <item>
+      <title>Şarkı Kapakları — Albüm Kapağı Tasarımı (3/10)</title>
+      <link>https://theblackdot.work#sarki</link>
+      <guid isPermaLink="false">theblackdott-sarki-3</guid>
+      <description>Orijinal fotoğraflar kullanılarak tasarlanan albüm kapakları. Her kapak, müziğin ruhunu görsel bir dile çeviriyor. Font: Space Grotesk.</description>
+      <pubDate>Mon, 14 Apr 2026 01:23:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/sarki/sarki-kapagi-mockup/3.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/sarki/sarki-kapagi-mockup/3.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Albüm Kapağı</category>
+      <category>Tipografi</category>
+      <category>Fotoğraf</category>
+    </item>
+
+    <item>
+      <title>Şarkı Kapakları — Albüm Kapağı Tasarımı (4/10)</title>
+      <link>https://theblackdot.work#sarki</link>
+      <guid isPermaLink="false">theblackdott-sarki-4</guid>
+      <description>Orijinal fotoğraflar kullanılarak tasarlanan albüm kapakları. Her kapak, müziğin ruhunu görsel bir dile çeviriyor. Font: Space Grotesk.</description>
+      <pubDate>Mon, 14 Apr 2026 01:24:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/sarki/sarki-kapagi-mockup/4.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/sarki/sarki-kapagi-mockup/4.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Albüm Kapağı</category>
+      <category>Tipografi</category>
+      <category>Fotoğraf</category>
+    </item>
+
+    <item>
+      <title>Şarkı Kapakları — Albüm Kapağı Tasarımı (5/10)</title>
+      <link>https://theblackdot.work#sarki</link>
+      <guid isPermaLink="false">theblackdott-sarki-5</guid>
+      <description>Orijinal fotoğraflar kullanılarak tasarlanan albüm kapakları. Her kapak, müziğin ruhunu görsel bir dile çeviriyor. Font: Space Grotesk.</description>
+      <pubDate>Mon, 14 Apr 2026 01:25:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/sarki/sarki-kapagi-mockup/5.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/sarki/sarki-kapagi-mockup/5.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Albüm Kapağı</category>
+      <category>Tipografi</category>
+      <category>Fotoğraf</category>
+    </item>
+
+    <item>
+      <title>Şarkı Kapakları — Albüm Kapağı Tasarımı (6/10)</title>
+      <link>https://theblackdot.work#sarki</link>
+      <guid isPermaLink="false">theblackdott-sarki-6</guid>
+      <description>Orijinal fotoğraflar kullanılarak tasarlanan albüm kapakları. Her kapak, müziğin ruhunu görsel bir dile çeviriyor. Font: Space Grotesk.</description>
+      <pubDate>Mon, 14 Apr 2026 01:26:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/sarki/sarki-kapagi-mockup/6.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/sarki/sarki-kapagi-mockup/6.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Albüm Kapağı</category>
+      <category>Tipografi</category>
+      <category>Fotoğraf</category>
+    </item>
+
+    <item>
+      <title>Şarkı Kapakları — Albüm Kapağı Tasarımı (7/10)</title>
+      <link>https://theblackdot.work#sarki</link>
+      <guid isPermaLink="false">theblackdott-sarki-7</guid>
+      <description>Orijinal fotoğraflar kullanılarak tasarlanan albüm kapakları. Her kapak, müziğin ruhunu görsel bir dile çeviriyor. Font: Space Grotesk.</description>
+      <pubDate>Mon, 14 Apr 2026 01:27:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/sarki/sarki-kapagi-mockup/7.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/sarki/sarki-kapagi-mockup/7.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Albüm Kapağı</category>
+      <category>Tipografi</category>
+      <category>Fotoğraf</category>
+    </item>
+
+    <item>
+      <title>Şarkı Kapakları — Albüm Kapağı Tasarımı (8/10)</title>
+      <link>https://theblackdot.work#sarki</link>
+      <guid isPermaLink="false">theblackdott-sarki-8</guid>
+      <description>Orijinal fotoğraflar kullanılarak tasarlanan albüm kapakları. Her kapak, müziğin ruhunu görsel bir dile çeviriyor. Font: Space Grotesk.</description>
+      <pubDate>Mon, 14 Apr 2026 01:28:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/sarki/sarki-kapagi-mockup/8.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/sarki/sarki-kapagi-mockup/8.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Albüm Kapağı</category>
+      <category>Tipografi</category>
+      <category>Fotoğraf</category>
+    </item>
+
+    <item>
+      <title>Şarkı Kapakları — Albüm Kapağı Tasarımı (9/10)</title>
+      <link>https://theblackdot.work#sarki</link>
+      <guid isPermaLink="false">theblackdott-sarki-9</guid>
+      <description>Orijinal fotoğraflar kullanılarak tasarlanan albüm kapakları. Her kapak, müziğin ruhunu görsel bir dile çeviriyor. Font: Space Grotesk.</description>
+      <pubDate>Mon, 14 Apr 2026 01:29:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/sarki/sarki-kapagi-mockup/9.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/sarki/sarki-kapagi-mockup/9.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Albüm Kapağı</category>
+      <category>Tipografi</category>
+      <category>Fotoğraf</category>
+    </item>
+
+    <item>
+      <title>Şarkı Kapakları — Albüm Kapağı Tasarımı (10/10)</title>
+      <link>https://theblackdot.work#sarki</link>
+      <guid isPermaLink="false">theblackdott-sarki-10</guid>
+      <description>Orijinal fotoğraflar kullanılarak tasarlanan albüm kapakları. Her kapak, müziğin ruhunu görsel bir dile çeviriyor. Font: Space Grotesk.</description>
+      <pubDate>Mon, 14 Apr 2026 01:30:00 +0300</pubDate>
+      <enclosure url="https://theblackdot.work/sarki/sarki-kapagi-mockup/10.png" type="image/png" length="0"/>
+      <media:content url="https://theblackdot.work/sarki/sarki-kapagi-mockup/10.png" medium="image" type="image/png"/>
+      <category>Grafik Tasarım</category>
+      <category>Albüm Kapağı</category>
+      <category>Tipografi</category>
+      <category>Fotoğraf</category>
     </item>
 
   </channel>
