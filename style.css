@@ -609,8 +609,22 @@ ul,ol{list-style:none}
   html,body,a,button{cursor:auto}
   .top-bar{padding:14px 20px}
   .top-bar.scrolled{padding:10px 20px}
-  .project-card{padding:70px 20px 30px}
-  .project-image-wrapper{height:35vh;aspect-ratio:unset;border-radius:10px}
+
+  /* Mobil: yatay scroll devre dışı → dikey liste */
+  .horizontal-container{
+    position:static;height:auto;overflow:visible;
+    opacity:1 !important;pointer-events:auto;z-index:auto;
+  }
+  .horizontal-track{flex-direction:column;height:auto;will-change:auto}
+  .project-card{
+    flex:none;width:100%;height:auto;
+    padding:80px 20px 48px;
+    border-bottom:1px solid rgba(255,255,255,0.06);
+  }
+  .project-card:last-child{border-bottom:none}
+  .project-card-inner{grid-template-columns:1fr;gap:20px}
+  .project-image-wrapper{height:auto;aspect-ratio:4/3;width:100%;border-radius:10px}
+
   .project-name{font-size:1.8rem}
   .project-desc{font-size:0.85rem}
   .project-work-list li{font-size:0.68rem;padding:4px 10px}
@@ -625,7 +639,7 @@ ul,ol{list-style:none}
   .contact-section{padding:40px 20px 60px}
   .contact-links{flex-direction:column;align-items:center}
   .contact-link{width:100%;max-width:320px;justify-content:center}
-  .bottom-sections{padding-top:60px}
+  .bottom-sections{padding-top:40px}
   .nav-drawer{width:280px}
   .nav-drawer-inner{padding:90px 28px 32px}
 }
@@ -643,7 +657,7 @@ ul,ol{list-style:none}
   /* Detail close buton */
   .detail-close{right:16px;top:16px}
   /* Bottom sections */
-  .bottom-sections{padding-top:50px}
+  .bottom-sections{padding-top:32px}
   /* Gallery grid padding azalt */
   .gallery-grid.carousel-grid,.gallery-grid.story-grid{padding:0 12px 30px}
   /* About section */
@@ -653,11 +667,13 @@ ul,ol{list-style:none}
   .detail-tabs{padding:0 16px}
   .gallery-grid{padding:0 16px 32px}
   /* Project card daha az boşluk */
-  .project-card{padding:60px 16px 24px}
+  .project-card{padding:72px 16px 36px}
   .project-name{font-size:1.5rem}
   .project-desc{font-size:0.82rem;margin-bottom:16px}
   .project-work-list{margin-bottom:16px}
   .project-palette{margin-bottom:16px}
+  /* Mobil: image aspect ratio koru */
+  .project-image-wrapper{aspect-ratio:4/3;height:auto}
 }
 @media(max-width:375px){
   .nav-drawer{width:260px}

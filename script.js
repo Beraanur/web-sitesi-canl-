@@ -104,6 +104,8 @@ var projects = [
 var currentLang='tr', currentProject=-1, lightboxImages=[], lightboxIndex=0, isDetailOpen=false;
 var totalCards=6;
 
+function isMobile(){ return window.innerWidth<=768; }
+
 var topBar=document.getElementById('topBar');
 var topBarLogo=document.getElementById('topBarLogo');
 var projectCounter=document.getElementById('projectCounter');
@@ -122,6 +124,11 @@ var heroH=window.innerHeight;
 
 function setup(){
   heroH=window.innerHeight;
+  if(isMobile()){
+    horizontalSpacer.style.height='0px';
+    horizontalContainer.classList.add('active');
+    return;
+  }
   var trackW=(totalCards-1)*window.innerWidth*0.85+window.innerWidth;
   var cardScroll=trackW-window.innerWidth;
   var scrollNeeded=cardScroll/0.75;
@@ -133,8 +140,12 @@ window.addEventListener('resize',function(){setup();onScroll()});
 /* Smooth lerp for transform */
 var currentTx=0, targetTx=0;
 function smoothTrack(){
-  currentTx+=(targetTx-currentTx)*0.12;
-  horizontalTrack.style.transform='translateX('+currentTx+'px)';
+  if(!isMobile()){
+    currentTx+=(targetTx-currentTx)*0.12;
+    horizontalTrack.style.transform='translateX('+currentTx+'px)';
+  } else {
+    horizontalTrack.style.transform='none';
+  }
   requestAnimationFrame(smoothTrack);
 }
 smoothTrack();
@@ -162,46 +173,45 @@ function onScroll(){
     topBar.classList.remove('scrolled');
   }
 
-  /* horizontal scroll */
-  if(inZone){
-    horizontalContainer.classList.add('active');
-    progressBar.classList.add('visible');
-    projectCounter.classList.add('visible');
+  /* horizontal scroll — yalnızca desktop */
+  if(!isMobile()){
+    if(inZone){
+      horizontalContainer.classList.add('active');
+      progressBar.classList.add('visible');
+      projectCounter.classList.add('visible');
 
-    var rawProgress=(sy-sTop)/sH;
-    rawProgress=Math.max(0,Math.min(1,rawProgress));
+      var rawProgress=(sy-sTop)/sH;
+      rawProgress=Math.max(0,Math.min(1,rawProgress));
 
-    var cardProgress=Math.min(rawProgress/0.75,1);
+      var cardProgress=Math.min(rawProgress/0.75,1);
 
-    var trackW=(totalCards-1)*window.innerWidth*0.85+window.innerWidth;
-    var maxTx=trackW-window.innerWidth;
-    targetTx=-cardProgress*maxTx;
+      var trackW=(totalCards-1)*window.innerWidth*0.85+window.innerWidth;
+      var maxTx=trackW-window.innerWidth;
+      targetTx=-cardProgress*maxTx;
 
-    progressFill.style.width=(rawProgress*100)+'%';
+      progressFill.style.width=(rawProgress*100)+'%';
 
-    /* Fade-out başlangıcını biraz erken al (son 5%) — daha yumuşak */
-    if(rawProgress>0.95){
-      horizontalContainer.style.opacity=Math.max(0,1-((rawProgress-0.95)/0.05)).toString();
-    } else {
-      horizontalContainer.style.opacity='1';
-    }
-
-    var idx=Math.min(Math.floor(cardProgress*totalCards),totalCards-1);
-    projectCounter.innerHTML='<span>'+String(idx+1).padStart(2,'0')+'</span> / '+String(totalCards).padStart(2,'0');
-  } else {
-    /* Fade tamamlandıktan sonra active'i kaldır */
-    horizontalContainer.style.opacity='0';
-    progressBar.classList.remove('visible');
-    projectCounter.classList.remove('visible');
-    /* Kısa gecikme: CSS transition bitmeden class kaldırılmasın */
-    clearTimeout(onScroll._hideTimer);
-    onScroll._hideTimer=setTimeout(function(){
-      if(!document.getElementById('horizontalSpacer') ||
-         window.pageYOffset<horizontalSpacer.offsetTop ||
-         window.pageYOffset>=horizontalSpacer.offsetTop+parseFloat(horizontalSpacer.style.height)){
-        horizontalContainer.classList.remove('active');
+      if(rawProgress>0.95){
+        horizontalContainer.style.opacity=Math.max(0,1-((rawProgress-0.95)/0.05)).toString();
+      } else {
+        horizontalContainer.style.opacity='1';
       }
-    },520);
+
+      var idx=Math.min(Math.floor(cardProgress*totalCards),totalCards-1);
+      projectCounter.innerHTML='<span>'+String(idx+1).padStart(2,'0')+'</span> / '+String(totalCards).padStart(2,'0');
+    } else {
+      horizontalContainer.style.opacity='0';
+      progressBar.classList.remove('visible');
+      projectCounter.classList.remove('visible');
+      clearTimeout(onScroll._hideTimer);
+      onScroll._hideTimer=setTimeout(function(){
+        if(!document.getElementById('horizontalSpacer') ||
+           window.pageYOffset<horizontalSpacer.offsetTop ||
+           window.pageYOffset>=horizontalSpacer.offsetTop+parseFloat(horizontalSpacer.style.height)){
+          horizontalContainer.classList.remove('active');
+        }
+      },520);
+    }
   }
 
   /* reveals */
