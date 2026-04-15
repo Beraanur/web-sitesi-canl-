@@ -60,7 +60,7 @@
     <div class="top-bar-logo" id="topBarLogo"><span style="color: #fff;">THE </span>BLACK<span style="color: #fff;"> DOT</span></div>
   </div>
   <div class="top-bar-right">
-    <div class="project-counter" id="projectCounter"><span>01</span> / 05</div>
+    <div class="project-counter" id="projectCounter"><span>01</span> / 06</div>
     <button class="lang-toggle" id="langToggle" aria-label="Change language">EN</button>
   </div>
 </nav>
@@ -75,11 +75,12 @@
       <div class="nav-group">
         <button class="nav-link nav-group-toggle" id="projectsToggle" data-tr="Projeler" data-en="Projects">Projeler</button>
         <div class="nav-sublinks" id="navSublinks">
-          <a class="nav-sublink" onclick="navToProject(0)">Vortify Media</a>
-          <a class="nav-sublink" onclick="navToProject(1)">Şoför Go</a>
-          <a class="nav-sublink" onclick="navToProject(2)">The Little Black Book</a>
-          <a class="nav-sublink" onclick="navToProject(3)">Parfüm Mutfağı</a>
-          <a class="nav-sublink" onclick="navToProject(4)">Şarkı Kapakları</a>
+          <a class="nav-sublink" onclick="navToProject(0)">The White T-Shirt</a>
+          <a class="nav-sublink" onclick="navToProject(1)">Vortify Media</a>
+          <a class="nav-sublink" onclick="navToProject(2)">Şoför Go</a>
+          <a class="nav-sublink" onclick="navToProject(3)">The Little Black Book</a>
+          <a class="nav-sublink" onclick="navToProject(4)">Parfüm Mutfağı</a>
+          <a class="nav-sublink" onclick="navToProject(5)">Şarkı Kapakları</a>
         </div>
       </div>
       <a class="nav-link" href="#contact" onclick="navTo('contact')" data-tr="İletişim" data-en="Contact">İletişim</a>
@@ -115,10 +116,39 @@
 <div class="horizontal-container" id="horizontalContainer">
   <div class="horizontal-track" id="horizontalTrack">
 
-    <!-- 01: Vortify Media -->
+    <!-- 01: The White T-Shirt -->
     <div class="project-card">
       <div class="project-card-inner">
         <div class="project-image-wrapper" onclick="openDetail(0)">
+          <img src="the.white.t-shirt.co/ana.jpg" alt="The White T-Shirt sosyal medya içerik tasarımı — Beraanur Şahin" loading="eager">
+          <div class="project-image-overlay"></div>
+        </div>
+        <div class="project-info">
+          <span class="project-tag" data-tr="Kişisel Proje" data-en="Personal Project">Kişisel Proje</span>
+          <h2 class="project-name">THE WHITE T-SHIRT</h2>
+          <p class="project-desc" data-tr="Minimal bir t-shirt markası için sosyal medya içerik tasarımı. Sade, güçlü ve tutarlı görsel dil." data-en="Social media content design for a minimal t-shirt brand. Clean, bold, and consistent visual language.">Minimal bir t-shirt markası için sosyal medya içerik tasarımı. Sade, güçlü ve tutarlı görsel dil.</p>
+          <ul class="project-work-list">
+            <li data-tr="Sosyal Medya" data-en="Social Media">Sosyal Medya</li>
+            <li data-tr="İçerik Üretimi" data-en="Content Creation">İçerik Üretimi</li>
+            <li data-tr="Görsel Kimlik" data-en="Visual Identity">Görsel Kimlik</li>
+          </ul>
+          <div class="project-palette">
+            <div class="palette-dot" style="background:#FFFFFF;border-color:rgba(0,0,0,0.2)"><span class="tooltip">#FFFFFF</span></div>
+            <div class="palette-dot" style="background:#1A1A1A"><span class="tooltip">#1A1A1A</span></div>
+            <div class="palette-dot" style="background:#BFBFBF"><span class="tooltip">#BFBFBF</span></div>
+          </div>
+          <button class="explore-btn" onclick="openDetail(0)" data-tr="Projeyi keşfet" data-en="Explore project">
+            <span>Projeyi keşfet</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 02: Vortify Media -->
+    <div class="project-card">
+      <div class="project-card-inner">
+        <div class="project-image-wrapper" onclick="openDetail(1)">
           <img src="vortify/ana.jpg" alt="Vortify Media sosyal medya ve carousel tasarımı — Beraanur Şahin" loading="eager">
           <div class="project-image-overlay"></div>
         </div>
@@ -139,7 +169,7 @@
             <div class="palette-dot" style="background:#BFD8F2"><span class="tooltip">#BFD8F2</span></div>
             <div class="palette-dot" style="background:#F3F5F2"><span class="tooltip">#F3F5F2</span></div>
           </div>
-          <button class="explore-btn" onclick="openDetail(0)" data-tr="Projeyi keşfet" data-en="Explore project">
+          <button class="explore-btn" onclick="openDetail(1)" data-tr="Projeyi keşfet" data-en="Explore project">
             <span>Projeyi keşfet</span>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </button>
@@ -147,10 +177,10 @@
       </div>
     </div>
 
-    <!-- 02: Şoför Go -->
+    <!-- 03: Şoför Go -->
     <div class="project-card">
       <div class="project-card-inner">
-        <div class="project-image-wrapper" onclick="openDetail(1)">
+        <div class="project-image-wrapper" onclick="openDetail(2)">
           <img src="sofor-go/ana.jpg" alt="Şoför Go marka kimliği ve logo tasarımı — Beraanur Şahin" loading="eager">
           <div class="project-image-overlay"></div>
         </div>
@@ -171,7 +201,7 @@
             <div class="palette-dot" style="background:#180934"><span class="tooltip">#180934</span></div>
             <div class="palette-dot" style="background:#6620F0"><span class="tooltip">#6620F0</span></div>
           </div>
-          <button class="explore-btn" onclick="openDetail(1)" data-tr="Projeyi keşfet" data-en="Explore project">
+          <button class="explore-btn" onclick="openDetail(2)" data-tr="Projeyi keşfet" data-en="Explore project">
             <span>Projeyi keşfet</span>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </button>
@@ -179,10 +209,10 @@
       </div>
     </div>
 
-    <!-- 03: TLBB -->
+    <!-- 04: TLBB -->
     <div class="project-card">
       <div class="project-card-inner">
-        <div class="project-image-wrapper" onclick="openDetail(2)">
+        <div class="project-image-wrapper" onclick="openDetail(3)">
           <img src="thelittleblackbook/ana.jpg" alt="The Little Black Book Bodrum sosyal medya ve editorial tasarım — Beraanur Şahin" loading="eager">
           <div class="project-image-overlay"></div>
         </div>
@@ -201,7 +231,7 @@
             <div class="palette-dot" style="background:#000000"><span class="tooltip">#000000</span></div>
             <div class="palette-dot" style="background:#E42B91"><span class="tooltip">#E42B91</span></div>
           </div>
-          <button class="explore-btn" onclick="openDetail(2)" data-tr="Projeyi keşfet" data-en="Explore project">
+          <button class="explore-btn" onclick="openDetail(3)" data-tr="Projeyi keşfet" data-en="Explore project">
             <span>Projeyi keşfet</span>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </button>
@@ -209,10 +239,10 @@
       </div>
     </div>
 
-    <!-- 04: Parfüm Mutfağı -->
+    <!-- 05: Parfüm Mutfağı -->
     <div class="project-card">
       <div class="project-card-inner">
-        <div class="project-image-wrapper" onclick="openDetail(3)">
+        <div class="project-image-wrapper" onclick="openDetail(4)">
           <img src="parfum/ana.jpg" alt="Parfüm Mutfağı ürün görseli ve sosyal medya tasarımı — Beraanur Şahin" loading="eager">
           <div class="project-image-overlay"></div>
         </div>
@@ -232,7 +262,7 @@
             <div class="palette-dot" style="background:#001F27"><span class="tooltip">#001F27</span></div>
             <div class="palette-dot" style="background:#1F73C2"><span class="tooltip">#1F73C2</span></div>
           </div>
-          <button class="explore-btn" onclick="openDetail(3)" data-tr="Projeyi keşfet" data-en="Explore project">
+          <button class="explore-btn" onclick="openDetail(4)" data-tr="Projeyi keşfet" data-en="Explore project">
             <span>Projeyi keşfet</span>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </button>
@@ -240,10 +270,10 @@
       </div>
     </div>
 
-    <!-- 05: Şarkı Kapakları -->
+    <!-- 06: Şarkı Kapakları -->
     <div class="project-card">
       <div class="project-card-inner">
-        <div class="project-image-wrapper" onclick="openDetail(4)">
+        <div class="project-image-wrapper" onclick="openDetail(5)">
           <img src="sarki/sarki-kapagi-mockup/ana.png" alt="Şarkı kapakları — orijinal fotoğraf ve tipografi tasarımı — Beraanur Şahin" loading="eager">
           <div class="project-image-overlay"></div>
         </div>
@@ -257,7 +287,7 @@
             <li data-tr="Tipografi" data-en="Typography">Tipografi</li>
           </ul>
           <div class="project-palette"></div>
-          <button class="explore-btn" onclick="openDetail(4)" data-tr="Projeyi keşfet" data-en="Explore project">
+          <button class="explore-btn" onclick="openDetail(5)" data-tr="Projeyi keşfet" data-en="Explore project">
             <span>Projeyi keşfet</span>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </button>

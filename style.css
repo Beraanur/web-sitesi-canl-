@@ -91,6 +91,24 @@ ul,ol{list-style:none}
 .top-bar-logo.visible{opacity:1}
 .top-bar-right{display:flex;align-items:center;gap:24px}
 
+/* ===== PROJECT COUNTER ===== */
+.project-counter{
+  font-size:0.65rem;letter-spacing:3px;color:var(--gray);
+  opacity:0;transition:opacity 0.6s var(--ease);
+  white-space:nowrap;
+}
+.project-counter.visible{opacity:1}
+.project-counter span{color:var(--neon)}
+
+/* ===== LANG TOGGLE ===== */
+.lang-toggle{
+  font-size:0.73rem;font-weight:600;letter-spacing:2px;
+  color:var(--gray);padding:5px 14px;
+  border:1px solid rgba(255,255,255,0.15);border-radius:20px;
+  transition:all 0.2s ease;
+}
+.lang-toggle:hover{color:var(--neon);border-color:var(--neon)}
+
 /* ===== HAMBURGER MENU ===== */
 .menu-btn{
   display:flex;flex-direction:column;justify-content:center;gap:5px;
@@ -196,7 +214,7 @@ ul,ol{list-style:none}
 
 /* ===== HERO ===== */
 .hero{
-  height:100vh;display:flex;flex-direction:column;
+  height:100vh;height:100dvh;display:flex;flex-direction:column;
   justify-content:center;align-items:center;
   position:relative;background:var(--dark);overflow:hidden;
 }
@@ -372,6 +390,7 @@ ul,ol{list-style:none}
 .project-detail{
   position:fixed;inset:0;z-index:2000;
   background:var(--dark);overflow-y:auto;
+  -webkit-overflow-scrolling:touch;
   transform:translateY(100%);
   transition:transform 0.7s cubic-bezier(0.65,0,0.35,1);
 }
@@ -431,7 +450,11 @@ ul,ol{list-style:none}
 .tab-btn:hover{color:var(--white)}
 .tab-btn.active{color:var(--neon);border-bottom-color:var(--neon)}
 .tab-content{display:none}
-.tab-content.active{display:block}
+.tab-content.active{display:block;animation:tabFadeIn 0.25s ease forwards}
+@keyframes tabFadeIn{
+  from{opacity:0;transform:translateY(6px)}
+  to{opacity:1;transform:translateY(0)}
+}
 
 /* Gallery — 4 columns */
 .gallery-grid{
@@ -573,7 +596,7 @@ ul,ol{list-style:none}
 @media(max-width:1024px){
   .project-card{padding:80px 30px 40px;flex:0 0 100vw}
   .project-card-inner{grid-template-columns:1fr;gap:20px}
-  .project-image-wrapper{max-height:40vh}
+  .project-image-wrapper{width:100%;height:40vh;aspect-ratio:unset;margin:0 auto}
   .detail-header{padding:80px 30px 40px}
   .detail-tabs{padding:0 30px}
   .gallery-grid{padding:0 30px 60px}
@@ -587,18 +610,21 @@ ul,ol{list-style:none}
   .top-bar{padding:14px 20px}
   .top-bar.scrolled{padding:10px 20px}
   .project-card{padding:70px 20px 30px}
-  .project-image-wrapper{max-height:35vh;border-radius:10px}
+  .project-image-wrapper{height:35vh;aspect-ratio:unset;border-radius:10px}
   .project-name{font-size:1.8rem}
   .project-desc{font-size:0.85rem}
   .project-work-list li{font-size:0.68rem;padding:4px 10px}
   .palette-dot{width:22px;height:22px}
+  .tab-btn{padding:14px 14px;font-size:0.7rem}
   .detail-header{padding:70px 20px 30px}
+  .detail-meta{grid-template-columns:1fr;gap:20px}
   .detail-tabs{padding:0 20px}
   .gallery-grid{grid-template-columns:repeat(2,1fr);gap:10px;padding:0 20px 40px}
   .about-section{padding:50px 20px 80px}
   .services-grid{grid-template-columns:1fr;max-width:400px}
   .contact-section{padding:40px 20px 60px}
   .contact-links{flex-direction:column;align-items:center}
+  .contact-link{width:100%;max-width:320px;justify-content:center}
   .bottom-sections{padding-top:60px}
   .nav-drawer{width:280px}
   .nav-drawer-inner{padding:90px 28px 32px}
@@ -615,22 +641,31 @@ ul,ol{list-style:none}
   .lightbox-prev{left:calc(50% - 60px)}
   .lightbox-next{right:calc(50% - 60px)}
   /* Detail close buton */
-  .detail-close{right:20px;top:16px}
+  .detail-close{right:16px;top:16px}
   /* Bottom sections */
-  .bottom-sections{padding-top:60px}
+  .bottom-sections{padding-top:50px}
   /* Gallery grid padding azalt */
   .gallery-grid.carousel-grid,.gallery-grid.story-grid{padding:0 12px 30px}
   /* About section */
   .about-section{padding:40px 16px 60px}
+  /* Detail header */
+  .detail-header{padding:60px 16px 24px}
+  .detail-tabs{padding:0 16px}
+  .gallery-grid{padding:0 16px 32px}
+  /* Project card daha az boşluk */
+  .project-card{padding:60px 16px 24px}
+  .project-name{font-size:1.5rem}
+  .project-desc{font-size:0.82rem;margin-bottom:16px}
+  .project-work-list{margin-bottom:16px}
+  .project-palette{margin-bottom:16px}
 }
 @media(max-width:375px){
   .nav-drawer{width:260px}
   .top-bar-logo{display:none !important}
-  .hero-brand-topleft{display:block}
   .gallery-item.story-item{min-width:120px;width:120px}
 }
 @media(max-height:500px) and (orientation:landscape){
-  .hero-section{height:auto;min-height:100vh;padding:80px 0 40px}
+  .hero{height:auto;min-height:100vh;padding:80px 0 40px}
   .hero-logo{width:90px;height:90px}
   .hero-name{font-size:1.2rem}
 }

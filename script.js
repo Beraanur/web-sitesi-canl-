@@ -2,6 +2,17 @@
 
 var projects = [
   {
+    id:'white-tshirt', name:'THE WHITE T-SHIRT',
+    tagline:{tr:'Sadeliğin gücü',en:'The power of simplicity'},
+    desc:{tr:'Minimal bir t-shirt markası için sosyal medya içerik tasarımı. Sade, güçlü ve tutarlı görsel dil.',en:'Social media content design for a minimal t-shirt brand. Clean, bold, and consistent visual language.'},
+    font:'Space Grotesk',
+    colors:['#FFFFFF','#1A1A1A','#BFBFBF'],
+    categories:{
+      tr:[{name:'Postlar',type:'grid',images:['the.white.t-shirt.co/1.png','the.white.t-shirt.co/2.png','the.white.t-shirt.co/3.png','the.white.t-shirt.co/4.png','the.white.t-shirt.co/5.png','the.white.t-shirt.co/6.png','the.white.t-shirt.co/7.png','the.white.t-shirt.co/8.png','the.white.t-shirt.co/9.png']}],
+      en:[{name:'Posts',type:'grid',images:['the.white.t-shirt.co/1.png','the.white.t-shirt.co/2.png','the.white.t-shirt.co/3.png','the.white.t-shirt.co/4.png','the.white.t-shirt.co/5.png','the.white.t-shirt.co/6.png','the.white.t-shirt.co/7.png','the.white.t-shirt.co/8.png','the.white.t-shirt.co/9.png']}]
+    }
+  },
+  {
     id:'vortify', name:'VORTIFY MEDIA',
     tagline:{tr:'Dijital büyüme için yaratıcı içerik çözümleri',en:'Creative content solutions for digital growth'},
     desc:{tr:'Reklam ajansı için sosyal medya içerik üretimi, carousel tasarımları ve baskı/yayın çalışmaları.',en:'Social media content, carousel designs, and print work for an advertising agency.'},
@@ -91,7 +102,7 @@ var projects = [
 ];
 
 var currentLang='tr', currentProject=-1, lightboxImages=[], lightboxIndex=0, isDetailOpen=false;
-var totalCards=5;
+var totalCards=6;
 
 var topBar=document.getElementById('topBar');
 var topBarLogo=document.getElementById('topBarLogo');
@@ -298,6 +309,16 @@ document.addEventListener('keydown',function(e){
   } else if(isDetailOpen && e.key==='Escape') closeDetail();
 });
 lightbox.addEventListener('click',function(e){if(e.target===lightbox) closeLightbox();});
+
+/* Touch swipe desteği — lightbox */
+var lbTouchStartX=0;
+lightbox.addEventListener('touchstart',function(e){
+  lbTouchStartX=e.touches[0].clientX;
+},{passive:true});
+lightbox.addEventListener('touchend',function(e){
+  var dx=e.changedTouches[0].clientX-lbTouchStartX;
+  if(Math.abs(dx)>50) navigateLightbox(dx<0?1:-1);
+},{passive:true});
 
 /* ===== LANGUAGE ===== */
 langToggle.addEventListener('click',function(){
