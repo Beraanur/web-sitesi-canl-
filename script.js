@@ -2,6 +2,17 @@
 
 var projects = [
   {
+    id:'wall-story', name:'WALL STORY',
+    tagline:{tr:'Sanat, mekanla buluştuğunda',en:'Where art meets interior'},
+    desc:{tr:'Kurduğum ve yaratıcı direktörlüğünü yaptığım, küratörlük yapılmış tablolar ve iç mekan estetiği üzerine inşa edilmiş bir sanat markası. Her post, mekan ile eserin uyumunu öne çıkaran tutarlı bir anlatıya katkıda bulunuyor.',en:'An art-focused brand I founded and directed, built around curated paintings and interior aesthetics. Each post contributes to a consistent narrative, positioning the brand as a curated visual experience rather than a product catalog.'},
+    font:'Cormorant Garamond',
+    colors:['#25344F','#617891','#D5B893','#6F4D38','#632024'],
+    categories:{
+      tr:[{name:'Tümü',type:'grid',images:['wall.story.art/1.png','wall.story.art/2.png','wall.story.art/3.png','wall.story.art/4.png','wall.story.art/5.png','wall.story.art/6.png','wall.story.art/7.png','wall.story.art/8.png','wall.story.art/9.png']}],
+      en:[{name:'All',type:'grid',images:['wall.story.art/1.png','wall.story.art/2.png','wall.story.art/3.png','wall.story.art/4.png','wall.story.art/5.png','wall.story.art/6.png','wall.story.art/7.png','wall.story.art/8.png','wall.story.art/9.png']}]
+    }
+  },
+  {
     id:'white-tshirt', name:'THE WHITE T-SHIRT',
     tagline:{tr:'Sadeliğin gücü',en:'The power of simplicity'},
     desc:{tr:'Minimal bir t-shirt markası için sosyal medya içerik tasarımı. Sade, güçlü ve tutarlı görsel dil.',en:'Social media content design for a minimal t-shirt brand. Clean, bold, and consistent visual language.'},
@@ -102,7 +113,7 @@ var projects = [
 ];
 
 var currentLang='tr', currentProject=-1, lightboxImages=[], lightboxIndex=0, isDetailOpen=false;
-var totalCards=6;
+var totalCards=7;
 
 function isMobile(){ return window.innerWidth<=768; }
 
