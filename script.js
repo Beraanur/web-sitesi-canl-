@@ -245,7 +245,7 @@ function makeAlt(projectName, categoryName, index){
   return projectName+suffix;
 }
 
-function openDetail(idx){
+function openDetail(idx, pushHistory){
   currentProject=idx; isDetailOpen=true;
   var p=projects[idx], lang=currentLang, cats=p.categories[lang];
   var h='<div class="detail-header">';
@@ -285,12 +285,18 @@ function openDetail(idx){
   projectDetail.classList.add('open');
   projectDetail.scrollTop=0;
   document.body.style.overflow='hidden';
+  if(pushHistory!==false){
+    history.pushState({project:idx},'','#'+p.id);
+  }
 }
 
-function closeDetail(){
+function closeDetail(popHistory){
   isDetailOpen=false;
   projectDetail.classList.remove('open');
   document.body.style.overflow='';
+  if(popHistory!==false && window.location.hash){
+    history.pushState(null,'',window.location.pathname+window.location.search);
+  }
 }
 
 function switchTab(btn,idx){
@@ -306,6 +312,25 @@ function switchTab(btn,idx){
     for(var k=0;k<lazyImgs.length;k++) lazyImgs[k].loading='eager';
   }
 }
+
+/* Geri tuşu — detay ekranını kapat */
+window.addEventListener('popstate',function(e){
+  if(isDetailOpen){
+    closeDetail(false);
+  } else if(e.state && typeof e.state.project==='number'){
+    openDetail(e.state.project, false);
+  }
+});
+
+/* Sayfa ilk yüklendiğinde hash varsa projeyi aç */
+(function(){
+  var hash=window.location.hash.replace('#','');
+  if(hash){
+    for(var i=0;i<projects.length;i++){
+      if(projects[i].id===hash){ openDetail(i,false); break; }
+    }
+  }
+})();
 
 /* ===== LIGHTBOX ===== */
 function openLB(pi,ci,ii){
