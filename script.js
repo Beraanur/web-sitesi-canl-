@@ -111,25 +111,25 @@ var projects = [
     }
   },
   {
-    id:'fermentation', name:'EVERY.THING.ABOUT.FERMENTATION',
+    id:'fermentation', name:'EVERYTHING.ABOUT.FERMENTATION',
     tagline:{tr:'Fermantasyonun bilimi, editoryal bir dille',en:'The science of fermentation, told editorially'},
     desc:{tr:'Fermantasyon bilimi ve kültürü üzerine kurduğum kişisel içerik markası. Tuzdan bakteriye, kahm mayasından kültürleme yöntemlerine kadar geniş bir yelpazede eğitici carousel içerikleri tasarlıyorum; koyu ve editoryal bir görsel dille bilimsel bir konuyu estetik bir anlatıya dönüştürüyorum.',en:'A personal content brand I founded around the science and culture of fermentation. I design educational carousel content spanning topics from salt and bacteria to kahm yeast and culturing methods, translating a scientific subject into an aesthetic, editorial visual language.'},
     font:'Playfair Display',
     colors:['#150F12','#B39E89','#665653','#81738E','#848C88'],
     categories:{
       tr:[
-        {name:'Carousel 1',type:'carousel',images:['every.thing.about.fermentation/carousels/c1/2.png','every.thing.about.fermentation/carousels/c1/3.png','every.thing.about.fermentation/carousels/c1/4.png','every.thing.about.fermentation/carousels/c1/8.png']},
-        {name:'Carousel 2',type:'carousel',images:['every.thing.about.fermentation/carousels/c2/52.png','every.thing.about.fermentation/carousels/c2/53.png','every.thing.about.fermentation/carousels/c2/54.png','every.thing.about.fermentation/carousels/c2/55.png','every.thing.about.fermentation/carousels/c2/56.png']},
-        {name:'Carousel 3',type:'carousel',images:['every.thing.about.fermentation/carousels/c3/47.png','every.thing.about.fermentation/carousels/c3/48.png','every.thing.about.fermentation/carousels/c3/49.png','every.thing.about.fermentation/carousels/c3/50.png']},
-        {name:'Carousel 4',type:'carousel',images:['every.thing.about.fermentation/carousels/c4/8.png','every.thing.about.fermentation/carousels/c4/9.png','every.thing.about.fermentation/carousels/c4/10.png','every.thing.about.fermentation/carousels/c4/11.png']},
-        {name:'Carousel 5',type:'carousel',images:['every.thing.about.fermentation/carousels/c5/20.png','every.thing.about.fermentation/carousels/c5/21.png','every.thing.about.fermentation/carousels/c5/22.png']}
+        {name:'Carousel 1',type:'carousel',images:['everything.about.fermentation/carousels/c1/2.png','everything.about.fermentation/carousels/c1/3.png','everything.about.fermentation/carousels/c1/4.png','everything.about.fermentation/carousels/c1/8.png']},
+        {name:'Carousel 2',type:'carousel',images:['everything.about.fermentation/carousels/c2/52.png','everything.about.fermentation/carousels/c2/53.png','everything.about.fermentation/carousels/c2/54.png','everything.about.fermentation/carousels/c2/55.png','everything.about.fermentation/carousels/c2/56.png']},
+        {name:'Carousel 3',type:'carousel',images:['everything.about.fermentation/carousels/c3/47.png','everything.about.fermentation/carousels/c3/48.png','everything.about.fermentation/carousels/c3/49.png','everything.about.fermentation/carousels/c3/50.png']},
+        {name:'Carousel 4',type:'carousel',images:['everything.about.fermentation/carousels/c4/8.png','everything.about.fermentation/carousels/c4/9.png','everything.about.fermentation/carousels/c4/10.png','everything.about.fermentation/carousels/c4/11.png']},
+        {name:'Carousel 5',type:'carousel',images:['everything.about.fermentation/carousels/c5/20.png','everything.about.fermentation/carousels/c5/21.png','everything.about.fermentation/carousels/c5/22.png']}
       ],
       en:[
-        {name:'Carousel 1',type:'carousel',images:['every.thing.about.fermentation/carousels/c1/2.png','every.thing.about.fermentation/carousels/c1/3.png','every.thing.about.fermentation/carousels/c1/4.png','every.thing.about.fermentation/carousels/c1/8.png']},
-        {name:'Carousel 2',type:'carousel',images:['every.thing.about.fermentation/carousels/c2/52.png','every.thing.about.fermentation/carousels/c2/53.png','every.thing.about.fermentation/carousels/c2/54.png','every.thing.about.fermentation/carousels/c2/55.png','every.thing.about.fermentation/carousels/c2/56.png']},
-        {name:'Carousel 3',type:'carousel',images:['every.thing.about.fermentation/carousels/c3/47.png','every.thing.about.fermentation/carousels/c3/48.png','every.thing.about.fermentation/carousels/c3/49.png','every.thing.about.fermentation/carousels/c3/50.png']},
-        {name:'Carousel 4',type:'carousel',images:['every.thing.about.fermentation/carousels/c4/8.png','every.thing.about.fermentation/carousels/c4/9.png','every.thing.about.fermentation/carousels/c4/10.png','every.thing.about.fermentation/carousels/c4/11.png']},
-        {name:'Carousel 5',type:'carousel',images:['every.thing.about.fermentation/carousels/c5/20.png','every.thing.about.fermentation/carousels/c5/21.png','every.thing.about.fermentation/carousels/c5/22.png']}
+        {name:'Carousel 1',type:'carousel',images:['everything.about.fermentation/carousels/c1/2.png','everything.about.fermentation/carousels/c1/3.png','everything.about.fermentation/carousels/c1/4.png','everything.about.fermentation/carousels/c1/8.png']},
+        {name:'Carousel 2',type:'carousel',images:['everything.about.fermentation/carousels/c2/52.png','everything.about.fermentation/carousels/c2/53.png','everything.about.fermentation/carousels/c2/54.png','everything.about.fermentation/carousels/c2/55.png','everything.about.fermentation/carousels/c2/56.png']},
+        {name:'Carousel 3',type:'carousel',images:['everything.about.fermentation/carousels/c3/47.png','everything.about.fermentation/carousels/c3/48.png','everything.about.fermentation/carousels/c3/49.png','everything.about.fermentation/carousels/c3/50.png']},
+        {name:'Carousel 4',type:'carousel',images:['everything.about.fermentation/carousels/c4/8.png','everything.about.fermentation/carousels/c4/9.png','everything.about.fermentation/carousels/c4/10.png','everything.about.fermentation/carousels/c4/11.png']},
+        {name:'Carousel 5',type:'carousel',images:['everything.about.fermentation/carousels/c5/20.png','everything.about.fermentation/carousels/c5/21.png','everything.about.fermentation/carousels/c5/22.png']}
       ]
     }
   }
