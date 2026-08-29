@@ -62,12 +62,12 @@ var projects = [
       tr:[
         {name:'Marka',type:'grid',images:['sofor-go/brand/applogo.png','sofor-go/brand/logo.png']},
         {name:'Mockup',type:'grid',images:['sofor-go/mockup/m2.png','sofor-go/mockup/m3.jpg','sofor-go/mockup/m4.jpg']},
-        {name:'Postlar',type:'grid',images:['sofor-go/posts/t1.png','sofor-go/posts/t2.png','sofor-go/posts/t3.jpg','sofor-go/posts/t6.jpg','sofor-go/posts/t7.png','sofor-go/posts/t8.jpg']}
+        {name:'Postlar',type:'grid',images:['sofor-go/posts/t1.jpg','sofor-go/posts/t2.jpg','sofor-go/posts/t3.jpg','sofor-go/posts/t4.jpg','sofor-go/posts/t5.jpg','sofor-go/posts/t6.jpg','sofor-go/posts/t7.jpg','sofor-go/posts/t8.jpg','sofor-go/posts/t9.jpg']}
       ],
       en:[
         {name:'Brand',type:'grid',images:['sofor-go/brand/applogo.png','sofor-go/brand/logo.png']},
         {name:'Mockup',type:'grid',images:['sofor-go/mockup/m2.png','sofor-go/mockup/m3.jpg','sofor-go/mockup/m4.jpg']},
-        {name:'Posts',type:'grid',images:['sofor-go/posts/t1.png','sofor-go/posts/t2.png','sofor-go/posts/t3.jpg','sofor-go/posts/t6.jpg','sofor-go/posts/t7.png','sofor-go/posts/t8.jpg']}
+        {name:'Posts',type:'grid',images:['sofor-go/posts/t1.jpg','sofor-go/posts/t2.jpg','sofor-go/posts/t3.jpg','sofor-go/posts/t4.jpg','sofor-go/posts/t5.jpg','sofor-go/posts/t6.jpg','sofor-go/posts/t7.jpg','sofor-go/posts/t8.jpg','sofor-go/posts/t9.jpg']}
       ]
     }
   },
@@ -109,11 +109,34 @@ var projects = [
       tr:[{name:'Tümü',type:'grid',images:['sarki/sarki-kapagi-mockup/1.png','sarki/sarki-kapagi-mockup/2.png','sarki/sarki-kapagi-mockup/3.png','sarki/sarki-kapagi-mockup/4.png','sarki/sarki-kapagi-mockup/5.png','sarki/sarki-kapagi-mockup/6.png','sarki/sarki-kapagi-mockup/7.png','sarki/sarki-kapagi-mockup/8.png','sarki/sarki-kapagi-mockup/9.png','sarki/sarki-kapagi-mockup/10.png']}],
       en:[{name:'All',type:'grid',images:['sarki/sarki-kapagi-mockup/1.png','sarki/sarki-kapagi-mockup/2.png','sarki/sarki-kapagi-mockup/3.png','sarki/sarki-kapagi-mockup/4.png','sarki/sarki-kapagi-mockup/5.png','sarki/sarki-kapagi-mockup/6.png','sarki/sarki-kapagi-mockup/7.png','sarki/sarki-kapagi-mockup/8.png','sarki/sarki-kapagi-mockup/9.png','sarki/sarki-kapagi-mockup/10.png']}]
     }
+  },
+  {
+    id:'fermentation', name:'EVERY.THING.ABOUT.FERMENTATION',
+    tagline:{tr:'Fermantasyonun bilimi, editoryal bir dille',en:'The science of fermentation, told editorially'},
+    desc:{tr:'Fermantasyon bilimi ve kültürü üzerine kurduğum kişisel içerik markası. Tuzdan bakteriye, kahm mayasından kültürleme yöntemlerine kadar geniş bir yelpazede eğitici carousel içerikleri tasarlıyorum; koyu ve editoryal bir görsel dille bilimsel bir konuyu estetik bir anlatıya dönüştürüyorum.',en:'A personal content brand I founded around the science and culture of fermentation. I design educational carousel content spanning topics from salt and bacteria to kahm yeast and culturing methods, translating a scientific subject into an aesthetic, editorial visual language.'},
+    font:'Playfair Display',
+    colors:['#150F12','#B39E89','#665653','#81738E','#848C88'],
+    categories:{
+      tr:[
+        {name:'Carousel 1',type:'carousel',images:['every.thing.about.fermentation/carousels/c1/2.png','every.thing.about.fermentation/carousels/c1/3.png','every.thing.about.fermentation/carousels/c1/4.png','every.thing.about.fermentation/carousels/c1/8.png']},
+        {name:'Carousel 2',type:'carousel',images:['every.thing.about.fermentation/carousels/c2/52.png','every.thing.about.fermentation/carousels/c2/53.png','every.thing.about.fermentation/carousels/c2/54.png','every.thing.about.fermentation/carousels/c2/55.png','every.thing.about.fermentation/carousels/c2/56.png']},
+        {name:'Carousel 3',type:'carousel',images:['every.thing.about.fermentation/carousels/c3/47.png','every.thing.about.fermentation/carousels/c3/48.png','every.thing.about.fermentation/carousels/c3/49.png','every.thing.about.fermentation/carousels/c3/50.png']},
+        {name:'Carousel 4',type:'carousel',images:['every.thing.about.fermentation/carousels/c4/8.png','every.thing.about.fermentation/carousels/c4/9.png','every.thing.about.fermentation/carousels/c4/10.png','every.thing.about.fermentation/carousels/c4/11.png']},
+        {name:'Carousel 5',type:'carousel',images:['every.thing.about.fermentation/carousels/c5/20.png','every.thing.about.fermentation/carousels/c5/21.png','every.thing.about.fermentation/carousels/c5/22.png']}
+      ],
+      en:[
+        {name:'Carousel 1',type:'carousel',images:['every.thing.about.fermentation/carousels/c1/2.png','every.thing.about.fermentation/carousels/c1/3.png','every.thing.about.fermentation/carousels/c1/4.png','every.thing.about.fermentation/carousels/c1/8.png']},
+        {name:'Carousel 2',type:'carousel',images:['every.thing.about.fermentation/carousels/c2/52.png','every.thing.about.fermentation/carousels/c2/53.png','every.thing.about.fermentation/carousels/c2/54.png','every.thing.about.fermentation/carousels/c2/55.png','every.thing.about.fermentation/carousels/c2/56.png']},
+        {name:'Carousel 3',type:'carousel',images:['every.thing.about.fermentation/carousels/c3/47.png','every.thing.about.fermentation/carousels/c3/48.png','every.thing.about.fermentation/carousels/c3/49.png','every.thing.about.fermentation/carousels/c3/50.png']},
+        {name:'Carousel 4',type:'carousel',images:['every.thing.about.fermentation/carousels/c4/8.png','every.thing.about.fermentation/carousels/c4/9.png','every.thing.about.fermentation/carousels/c4/10.png','every.thing.about.fermentation/carousels/c4/11.png']},
+        {name:'Carousel 5',type:'carousel',images:['every.thing.about.fermentation/carousels/c5/20.png','every.thing.about.fermentation/carousels/c5/21.png','every.thing.about.fermentation/carousels/c5/22.png']}
+      ]
+    }
   }
 ];
 
 var currentLang='tr', currentProject=-1, lightboxImages=[], lightboxIndex=0, isDetailOpen=false;
-var totalCards=7;
+var totalCards=8;
 
 function isMobile(){ return window.innerWidth<=768; }
 
