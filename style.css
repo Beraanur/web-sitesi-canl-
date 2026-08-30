@@ -333,7 +333,7 @@ ul,ol{list-style:none}
 }
 .project-card:last-child{flex:0 0 100vw}
 .project-card-inner{
-  display:grid;grid-template-columns:1fr 1fr;gap:24px;
+  display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px;
   width:100%;max-width:1200px;align-items:start;
 }
 
@@ -360,6 +360,7 @@ ul,ol{list-style:none}
 .project-name{
   font-family:var(--font-h);font-size:clamp(2.2rem,4.5vw,4rem);
   letter-spacing:3px;line-height:1.1;margin-bottom:20px;
+  overflow-wrap:break-word;word-break:break-word;
 }
 .project-desc{
   font-size:0.95rem;color:var(--gray);line-height:1.8;
