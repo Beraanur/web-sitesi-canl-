@@ -1,4 +1,4 @@
-/* THE BLACK DOT — Portfolio Script */
+/* THE BLACK DOT — Portfolio Script (external, Cloudflare safe) */
 
 var projects = [
   {
@@ -56,7 +56,7 @@ var projects = [
     id:'sofor-go', name:'ŞOFÖR GO',
     tagline:{tr:'Aracın sende, Sürüş bizde',en:'Your car, our drive'},
     desc:{tr:'Profesyonel şoför hizmeti için full marka kimliği.',en:'Full brand identity for a professional driver service.'},
-    font:'Proxima Nova',
+    font:'Proxima Nova (Bold / Medium / Regular)',
     colors:['#F5F6FB','#A7A6AB','#A927E7','#180934','#6620F0'],
     categories:{
       tr:[
@@ -171,6 +171,7 @@ function setup(){
 setup();
 window.addEventListener('resize',function(){setup();onScroll()});
 
+/* Smooth lerp for transform */
 var currentTx=0, targetTx=0;
 function smoothTrack(){
   if(!isMobile()){
@@ -183,6 +184,13 @@ function smoothTrack(){
 }
 smoothTrack();
 
+/* ===== SCROLL ===== */
+/* GEÇİŞ DÜZELTMESİ:
+   - horizontalContainer'a CSS'te transition:opacity 0.5s eklendi
+   - JS'de inline opacity='' sıfırlaması yerine '0' atıyoruz,
+     böylece class kaldırılmadan önce smooth fade-out olur
+   - İki geçiş noktası (hero→horizontal, horizontal→bottom)
+     her ikisi de artık 0.5s fade ile çalışır */
 function onScroll(){
   if(isDetailOpen) return;
   var sy=window.pageYOffset;
@@ -190,6 +198,7 @@ function onScroll(){
   var sH=parseFloat(horizontalSpacer.style.height)||0;
   var inZone=sy>=sTop && sy<sTop+sH;
 
+  /* top bar */
   if(sy>heroH*0.5){
     topBarLogo.classList.add('visible');
     topBar.classList.add('scrolled');
@@ -198,6 +207,7 @@ function onScroll(){
     topBar.classList.remove('scrolled');
   }
 
+  /* horizontal scroll — yalnızca desktop */
   if(!isMobile()){
     if(inZone){
       horizontalContainer.classList.add('active');
@@ -238,6 +248,7 @@ function onScroll(){
     }
   }
 
+  /* reveals */
   var revs=document.querySelectorAll('.reveal');
   for(var i=0;i<revs.length;i++){
     if(revs[i].getBoundingClientRect().top<window.innerHeight*0.85){
@@ -248,6 +259,8 @@ function onScroll(){
 window.addEventListener('scroll',onScroll,{passive:true});
 onScroll();
 
+/* ===== DETAIL ===== */
+/* SEO: Otomatik alt text üretici */
 function makeAlt(projectName, categoryName, index){
   var suffix=currentLang==='en'
     ? ' — '+categoryName+' design '+(index+1)+' · Beraanur Şahin'
@@ -323,6 +336,7 @@ function switchTab(btn,idx){
   }
 }
 
+/* Geri tuşu — detay ekranını kapat */
 window.addEventListener('popstate',function(e){
   if(isDetailOpen){
     closeDetail(false);
@@ -331,6 +345,7 @@ window.addEventListener('popstate',function(e){
   }
 });
 
+/* Sayfa ilk yüklendiğinde hash varsa projeyi aç */
 (function(){
   var hash=window.location.hash.replace('#','');
   if(hash){
@@ -340,6 +355,7 @@ window.addEventListener('popstate',function(e){
   }
 })();
 
+/* ===== LIGHTBOX ===== */
 function openLB(pi,ci,ii){
   lightboxImages=projects[pi].categories[currentLang][ci].images;
   lightboxIndex=ii;
@@ -363,6 +379,7 @@ document.addEventListener('keydown',function(e){
 });
 lightbox.addEventListener('click',function(e){if(e.target===lightbox) closeLightbox();});
 
+/* Touch swipe desteği — lightbox */
 var lbTouchStartX=0;
 lightbox.addEventListener('touchstart',function(e){
   lbTouchStartX=e.touches[0].clientX;
@@ -372,6 +389,7 @@ lightbox.addEventListener('touchend',function(e){
   if(Math.abs(dx)>50) navigateLightbox(dx<0?1:-1);
 },{passive:true});
 
+/* ===== LANGUAGE ===== */
 langToggle.addEventListener('click',function(){
   currentLang=currentLang==='tr'?'en':'tr';
   langToggle.textContent=currentLang==='tr'?'EN':'TR';
@@ -388,6 +406,7 @@ langToggle.addEventListener('click',function(){
   if(isDetailOpen && currentProject>=0) openDetail(currentProject);
 });
 
+/* ===== FIREFLY CURSOR ===== */
 (function(){
   var isTouchDevice='ontouchstart' in window;
   if(isTouchDevice) return;
@@ -443,6 +462,7 @@ langToggle.addEventListener('click',function(){
   tick();
 })();
 
+/* ===== NAV DRAWER ===== */
 var menuBtn=document.getElementById('menuBtn');
 var navDrawer=document.getElementById('navDrawer');
 var navOverlay=document.getElementById('navOverlay');
