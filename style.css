@@ -391,7 +391,7 @@ ul,ol{list-style:none}
   font-size:0.82rem;font-weight:600;letter-spacing:2px;
   text-transform:uppercase;color:var(--neon);padding:12px 0;
   transition:gap 0.2s ease;
-  align-self:center;
+  align-self:flex-start;
 }
 .explore-btn:hover{gap:20px}
 .explore-btn svg{width:18px;height:18px;transition:transform 0.2s ease}
@@ -607,10 +607,12 @@ ul,ol{list-style:none}
 @media(max-width:1024px){
   .project-card{padding:80px 30px 40px;flex:0 0 100vw}
   .project-card-inner{grid-template-columns:1fr;gap:20px}
-  .project-image-wrapper{width:100%;height:40vh;aspect-ratio:unset;margin:0 auto}
+  .project-image-wrapper{width:100%;height:auto;aspect-ratio:unset;margin:0 auto}
+  .project-image-wrapper img{height:auto;object-fit:unset}
   .detail-header{padding:80px 30px 40px}
   .detail-tabs{padding:0 30px}
   .gallery-grid{padding:0 30px 60px}
+  .gallery-grid.carousel-grid,.gallery-grid.story-grid{padding:0 30px 60px}
 }
 @media(max-width:768px){
   .hero-brand-topleft{top:72px;left:72px;font-size:0.9rem;letter-spacing:3px}
@@ -646,6 +648,9 @@ ul,ol{list-style:none}
   .detail-meta{grid-template-columns:1fr;gap:20px}
   .detail-tabs{padding:0 20px}
   .gallery-grid{grid-template-columns:repeat(2,1fr);gap:10px;padding:0 20px 40px}
+  .gallery-grid.carousel-grid,.gallery-grid.story-grid{padding:0 20px 40px}
+  .gallery-item.story-item{width:calc(33.333% - 10px)}
+  .gallery-item.carousel-item{min-width:220px}
   .about-section{padding:50px 20px 80px}
   .services-grid{grid-template-columns:1fr;max-width:400px}
   .contact-section{padding:40px 20px 60px}
