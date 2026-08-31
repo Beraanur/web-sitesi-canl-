@@ -616,6 +616,8 @@ ul,ol{list-style:none}
   .gallery-grid.carousel-grid,.gallery-grid.story-grid{padding:0 30px 60px}
 }
 @media(max-width:768px){
+  .gallery-grid.carousel-grid{display:grid;grid-template-columns:1fr;overflow-x:visible}
+  .gallery-item.carousel-item{width:100%;min-width:0;flex:none}
   .hero-brand-topleft{top:72px;left:72px;font-size:0.9rem;letter-spacing:3px}
   .hero-logo{width:140px;height:140px}
   .hero-name{font-size:1.6rem}
@@ -667,7 +669,7 @@ ul,ol{list-style:none}
   .lang-toggle{font-size:0.65rem;padding:4px 10px}
   /* Story ve carousel item min genişlik */
   .gallery-item.story-item{min-width:140px;width:140px}
-  .gallery-item.carousel-item{width:180px;min-width:180px;flex:0 0 180px}
+  .gallery-item.carousel-item{width:100%;min-width:0;flex:none}
   /* Lightbox nav butonları altta ortala */
   .lightbox-nav{top:auto;bottom:24px;transform:none}
   .lightbox-prev{left:calc(50% - 60px)}
